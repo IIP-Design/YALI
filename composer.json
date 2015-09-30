@@ -18,38 +18,6 @@
         {
             "type": "composer",
             "url": "http://wpackagist.org"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/yali-moxie-theme.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/yali-moxie-child-theme.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/yali-facebook-like-box.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/yali-floating-social-bar-2.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/yali-wpbakery-visual-composer.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/yali-revolution-slider.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/yali-formidable-pro-pdf-extended.git"
-        },
-        {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/yali-formidable-to-mailchimp.git"
         }
     ],
     "require": {
@@ -67,15 +35,7 @@
         "wpackagist-plugin/wordpress-seo": "2.0",
         "wpackagist-plugin/bulk-delete": "5.4.1",
         "wpackagist-plugin/wordpress-importer": "0.6.1",
-        "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.4.3",
-        "iipdesign/yali-moxie-theme": "dev-master",
-        "iipdesign/yali-facebook-like-box.git": "dev-master",
-        "iipdesign/yali-floating-social-bar-2.git": "dev-master",
-        "iipdesign/yali-wpbakery-visual-composer.git": "dev-master",
-        "iipdesign/yali-revolution-slider.git": "dev-master",
-        "iipdesign/yali-formidable-pro-pdf-extended.git": "dev-master",
-        "iipdesign/yali-formidable-to-mailchimp.git": "dev-master"
-
+        "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.4.3"
     },
         "extra": {
         "webroot-dir": "wp",
