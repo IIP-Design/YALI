@@ -21,11 +21,35 @@
         },
         {
             "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/yali-moxie-theme.git"
+            "url":  "git@bitbucket.org:iipdesign/parallelus-moxie.git"
         },
         {
             "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/yali-moxie-child-theme.git"
+            "url":  "git@bitbucket.org:iipdesign/moxie-yali.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:iipdesign/formidable-mailchimp.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:iipdesign/floating-social-bar.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:iipdesign/formidable-pro-pdf-extended.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:iipdesign/revslider.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:iipdesign/js_composer.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:iipdesign/facebook-like-box-widget.git"
         }
     ],
     "require": {
@@ -44,8 +68,14 @@
         "wpackagist-plugin/bulk-delete": "5.4.1",
         "wpackagist-plugin/wordpress-importer": "0.6.1",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.4.3",
-        "iipdesign/yali-moxie-theme": "dev-master",
-        "iipdesign/yali-moxie-child-theme": "dev-master"
+        "iipdesign/parallelus-moxie": "1.2.3",
+        "iipdesign/moxie-yali": "dev-master",
+        "iipdesign/formidable-mailchimp": "dev-master",
+        "iipdesign/floating-social-bar": "dev-master",
+        "iipdesign/formidable-pro-pdf-extended": "dev-master",
+        "iipdesign/revslider": "dev-master",
+        "iipdesign/js_composer": "dev-master",
+        "iipdesign/facebook-like-box-widget": "dev-master",
     },
         "extra": {
         "webroot-dir": "wp",
