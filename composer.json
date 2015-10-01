@@ -18,6 +18,14 @@
         {
             "type": "composer",
             "url": "http://wpackagist.org"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:iipdesign/yali-moxie-theme.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@bitbucket.org:iipdesign/yali-moxie-child-theme.git"
         }
     ],
     "require": {
@@ -35,10 +43,13 @@
         "wpackagist-plugin/wordpress-seo": "2.0",
         "wpackagist-plugin/bulk-delete": "5.4.1",
         "wpackagist-plugin/wordpress-importer": "0.6.1",
-        "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.4.3"
+        "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.4.3",
+        "iipdesign/yali-moxie-theme": "dev-master",
+        "iipdesign/yali-moxie-child-theme": "dev-master"
     },
         "extra": {
         "webroot-dir": "wp",
         "webroot-package": "wordpress"
     }
 }
+
