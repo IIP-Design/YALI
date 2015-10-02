@@ -75,7 +75,7 @@
         "iipdesign/formidable-pro-pdf-extended": "dev-master",
         "iipdesign/revslider": "dev-master",
         "iipdesign/js_composer": "dev-master",
-        "iipdesign/facebook-like-box-widget": "dev-master",
+        "iipdesign/facebook-like-box-widget": "dev-master"
     },
         "extra": {
         "webroot-dir": "wp",
