@@ -44,8 +44,8 @@
             "url":  "git@bitbucket.org:iipdesign/formidable-pro-pdf-extended-master.git"
         },
         {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/js_composer.git"
+            "type": "git",
+            "url": "git@github.com:USStateDept/js_composer.git"
         },
         {
             "type": "vcs",
@@ -70,7 +70,7 @@
         "iipdesign/facebook-like-box-widget": "dev-master",
         "iipdesign/formidable-mailchimp": "dev-master",
         "iipdesign/formidable-pro-pdf-extended-master": "dev-master",
-        "iipdesign/js_composer": "dev-master",
+        "usstatedept/js_composer": "4.1.2",
         "iipdesign/revslider": "dev-master"
     },
         "extra": {
