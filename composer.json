@@ -64,6 +64,8 @@
         "wpackagist-plugin/wordpress-importer": "0.6.1",
         "wpackagist-plugin/wordpress-seo": "2.0",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.4.3",
+        "wpackagist-plugin/contact-form-7": "3.8",
+        "wpackagist-plugin/contact-form-7-autoresponder-addon-plugin": "1.7",
         "iipdesign/parallelus-moxie": "dev-master",
         "iipdesign/moxie-yali": "dev-master",
         "iipdesign/floating-social-bar": "dev-master",
