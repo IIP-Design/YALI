@@ -5,7 +5,7 @@
             "package": {
                 "name": "wordpress",
                 "type": "webroot",
-                "version": "3.9.6",
+                "version": "master",
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/WordPress/WordPress/archive/3.9.6.zip"
@@ -20,36 +20,36 @@
             "url": "http://wpackagist.org"
         },
         {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/parallelus-moxie.git"
+            "type": "git",
+            "url":  "git@github.com:usstatedept/parallelus-moxie.git"
         },
         {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/moxie-yali.git"
+            "type": "git",
+            "url":  "git@github.com:usstatedept/moxie-yali.git"
         },
         {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/floating-social-bar.git"
+            "type": "git",
+            "url":  "git@github.com:usstatedept/floating-social-bar.git"
         },
         {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/facebook-like-box-widget.git"
+            "type": "git",
+            "url":  "git@github.com:usstatedept/facebook-like-box-widget.git"
         },
         {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/formidable-mailchimp.git"
+            "type": "git",
+            "url":  "git@github.com:usstatedept/formidable-mailchimp.git"
         },
         {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/formidable-pro-pdf-extended-master.git"
+            "type": "git",
+            "url":  "git@github.com:usstatedept/formidable-pro-pdf-extended-master.git"
         },
         {
             "type": "git",
             "url": "git@github.com:USStateDept/js_composer.git"
         },
         {
-            "type": "vcs",
-            "url":  "git@bitbucket.org:iipdesign/revslider.git"
+            "type": "git",
+            "url":  "git@github.com:usstatedept/revslider.git"
         }
     ],
     "require": {
@@ -66,14 +66,14 @@
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.4.3",
         "wpackagist-plugin/contact-form-7": "3.8",
         "wpackagist-plugin/contact-form-7-autoresponder-addon-plugin": "1.7",
-        "iipdesign/parallelus-moxie": "dev-master",
-        "iipdesign/moxie-yali": "dev-master",
-        "iipdesign/floating-social-bar": "dev-master",
-        "iipdesign/facebook-like-box-widget": "dev-master",
-        "iipdesign/formidable-mailchimp": "dev-master",
-        "iipdesign/formidable-pro-pdf-extended-master": "dev-master",
+        "usstatedept/parallelus-moxie": "dev-master",
+        "usstatedept/moxie-yali": "dev-master",
+        "usstatedept/floating-social-bar": "dev-master",
+        "usstatedept/facebook-like-box-widget": "dev-master",
+        "usstatedept/formidable-mailchimp": "dev-master",
+        "usstatedept/formidable-pro-pdf-extended-master": "dev-master",
         "usstatedept/js_composer": "4.1.2",
-        "iipdesign/revslider": "dev-master"
+        "usstatedept/revslider": "dev-master"
     },
         "extra": {
         "webroot-dir": "wp",
