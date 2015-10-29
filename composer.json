@@ -60,6 +60,7 @@
         "wpackagist-plugin/contact-form-7-autoresponder-addon-plugin": "1.9",
         "wpackagist-plugin/facebook-like-box-widget": "2.8",
         "wpackagist-plugin/floating-social-bar": "1.1.7",
+        "wpackagist-plugin/easy-wp-smtp": "1.2.0",
         "usstatedept/parallelus-moxie": "dev-master",
         "usstatedept/moxie-yali": "dev-master",
         "usstatedept/formidable-mailchimp": "dev-master",
