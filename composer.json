@@ -65,7 +65,7 @@
         "usstatedept/moxie-yali": "dev-master",
         "usstatedept/formidable-mailchimp": "dev-master",
         "usstatedept/formidable-pro-pdf-extended-master": "dev-master",
-        "usstatedept/js_composer": "4.1.2",
+        "usstatedept/js_composer": "4.4.4",
         "usstatedept/revslider": "dev-master"
     },
         "extra": {
