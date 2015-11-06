@@ -5,10 +5,10 @@
             "package": {
                 "name": "wordpress",
                 "type": "webroot",
-                "version": "3.9.9",
+                "version": "4.3.1",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/3.9.9.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/4.3.1.zip"
                 },
                 "require" : {
                     "fancyguy/webroot-installer": "1.1.0"
@@ -50,7 +50,7 @@
         }
     ],
     "require": {
-        "wordpress": "3.9.9",
+        "wordpress": "4.3.1",
         "fancyguy/webroot-installer": "1.1.0",
         "wpackagist-plugin/event-organiser": "2.13.6",
         "wpackagist-plugin/gravitate-event-tracking": "1.4.0",
