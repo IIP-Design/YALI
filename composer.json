@@ -27,10 +27,6 @@
             "type": "git",
             "url":  "git@github.com:usstatedept/moxie-yali.git"
         },
-        {
-            "type": "git",
-            "url":  "git@github.com:USStateDept/formidable.git"
-        },
 
         {
             "type": "git",
@@ -53,7 +49,7 @@
         "wordpress": "4.3.1",
         "fancyguy/webroot-installer": "1.1.0",
         "wpackagist-plugin/event-organiser": "2.13.6",
-        "wpackagist-plugin/gravitate-event-tracking": "1.4.0",
+        "wpackagist-plugin/gravitate-event-tracking": "1.4.1",
         "wpackagist-plugin/list-category-posts": "0.66",
         "wpackagist-plugin/quiz-master-next": "4.6.2",
         "wpackagist-plugin/simple-sitemap": "1.65",
@@ -65,13 +61,13 @@
         "wpackagist-plugin/contact-form-7-autoresponder-addon-plugin": "1.9",
         "wpackagist-plugin/facebook-like-box-widget": "2.8",
         "wpackagist-plugin/floating-social-bar": "1.1.7",
-        "wpackagist-plugin/easy-wp-smtp": "1.2.0",
+        "wpackagist-plugin/easy-wp-smtp": "1.2.1",
         "wpackagist-plugin/pdf-print": "1.8.4",
         "wpackagist-plugin/google-apps-login": "2.8.12",
         "wpackagist-plugin/bulk-delete": "5.5.3",
+        "wpackagist-plugin/formidable": "2.0.15",
         "usstatedept/parallelus-moxie": "dev-master",
         "usstatedept/moxie-yali": "dev-master",
-        "usstatedept/formidable": "dev-master",
         "usstatedept/formidable-mailchimp": "dev-master",
         "usstatedept/formidable-pro-pdf-extended-master": "dev-master",
         "usstatedept/js_composer": "4.4.4",
