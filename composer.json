@@ -61,7 +61,7 @@
         "wpackagist-plugin/contact-form-7-autoresponder-addon-plugin": "1.9",
         "wpackagist-plugin/facebook-like-box-widget": "2.8",
         "wpackagist-plugin/floating-social-bar": "1.1.7",
-        "wpackagist-plugin/wp-ses": "0.3.60",
+        "wpackagist-plugin/amazon-ses-and-dkim-mailer": "1.7",
         "wpackagist-plugin/pdf-print": "1.8.4",
         "wpackagist-plugin/google-apps-login": "2.8.12",
         "wpackagist-plugin/bulk-delete": "5.5.3",
