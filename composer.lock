@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "900974d9c4c79885e0bfc171de24bcdf",
-    "content-hash": "b3d3d2f213d6f158e0578a90c386e9d2",
+    "hash": "4bfedae0f14bc438090cbd0dc788e6cd",
+    "content-hash": "07822aede9a394c5bb53e86e9bbb5093",
     "packages": [
         {
             "name": "composer/installers",
@@ -308,6 +308,27 @@
             ],
             "description": "Revolution slider.",
             "time": "2015-10-07 15:41:19"
+        },
+        {
+            "name": "usstatedept/wp-hide-login-form",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/wp-hide-login-form.git",
+                "reference": "5c9a0f55eeea503f82e42d0438fceda8640016ca"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, Bureau of International Information Programs",
+                    "email": "gustassj@america.gov"
+                }
+            ],
+            "description": "A WordPress plugin to hide the login form on the login page when the Google Apps Login plugin is active.",
+            "time": "2015-12-16 16:18:36"
         },
         {
             "name": "wordpress",

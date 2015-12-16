@@ -42,6 +42,10 @@
         {
             "type": "git",
             "url":  "git@github.com:usstatedept/revslider.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:USStateDept/wp-hide-login-form.git"
         }
     ],
     "require": {
@@ -71,7 +75,8 @@
         "usstatedept/formidable-mailchimp": "dev-master",
         "usstatedept/formidable-pro-pdf-extended-master": "dev-master",
         "usstatedept/js_composer": "4.4.4",
-        "usstatedept/revslider": "dev-master"
+        "usstatedept/revslider": "dev-master",
+        "usstatedept/wp-hide-login-form": "1.0.1"
         },
     "extra": {
         "dropin-paths": {
