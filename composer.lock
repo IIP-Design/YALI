@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4bfedae0f14bc438090cbd0dc788e6cd",
-    "content-hash": "07822aede9a394c5bb53e86e9bbb5093",
+    "hash": "bbd3527a079fdd641e2ec033f5e5d1d5",
+    "content-hash": "26903ae087247c66dffc42b5511910c6",
     "packages": [
         {
             "name": "composer/installers",
@@ -275,7 +275,7 @@
         },
         {
             "name": "usstatedept/parallelus-moxie",
-            "version": "dev-master",
+            "version": "1.2.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:usstatedept/parallelus-moxie.git",
@@ -293,7 +293,7 @@
         },
         {
             "name": "usstatedept/revslider",
-            "version": "dev-master",
+            "version": "4.3.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:usstatedept/revslider.git",
@@ -709,11 +709,9 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "usstatedept/parallelus-moxie": 20,
         "usstatedept/moxie-yali": 20,
         "usstatedept/formidable-mailchimp": 20,
-        "usstatedept/formidable-pro-pdf-extended-master": 20,
-        "usstatedept/revslider": 20
+        "usstatedept/formidable-pro-pdf-extended-master": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

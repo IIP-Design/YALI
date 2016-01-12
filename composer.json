@@ -70,12 +70,12 @@
         "wpackagist-plugin/google-apps-login": "2.8.12",
         "wpackagist-plugin/bulk-delete": "5.5.3",
         "wpackagist-plugin/formidable": "2.0.15",
-        "usstatedept/parallelus-moxie": "dev-master",
+        "usstatedept/parallelus-moxie": "1.2.3",
         "usstatedept/moxie-yali": "dev-master",
         "usstatedept/formidable-mailchimp": "dev-master",
         "usstatedept/formidable-pro-pdf-extended-master": "dev-master",
         "usstatedept/js_composer": "4.4.4",
-        "usstatedept/revslider": "dev-master",
+        "usstatedept/revslider": "4.3.8",
         "usstatedept/wp-hide-login-form": "1.0.1"
         },
     "extra": {
