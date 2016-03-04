@@ -30,7 +30,7 @@ define('NONCE_SALT',       getenv('YALI_NONCE_SALT'));
 
 $table_prefix  = 'wp_';
 
-define('WP_DEBUG', false );
+define('WP_DEBUG', true );
 define('WP_DEBUG_LOG', true);
 define('WP_DEBUG_DISPLAY', false);
 
@@ -47,7 +47,8 @@ if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) and $_SERVER['HTTP_X_FORWARDED_PRO
 	define('WP_HOME', 'http://' . $_SERVER['SERVER_NAME']);
 }
 
-/* Multisite */
+
+/* Multisite  */
 define( 'WP_ALLOW_MULTISITE', true);
 
 define('MULTISITE', true);
@@ -59,8 +60,7 @@ define('BLOG_ID_CURRENT_SITE', 1);
 
 define('SUNRISE', 'on'); // wordpress-mu-domain-mapping activation
 
-define('WP_DEFAULT_THEME', 'parallelus-moxie');
-
+/* define('WP_DEFAULT_THEME', 'parallelus-moxie'); */
 
 /* That's all, stop editing! Happy blogging. */
 
