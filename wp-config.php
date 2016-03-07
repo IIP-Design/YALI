@@ -37,14 +37,14 @@ define('WP_DEBUG_DISPLAY', false);
 define('WP_CONTENT_DIR', __DIR__ . '/wp-content');
 
 if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) and $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') {
-	define('WP_CONTENT_URL', 'https://' . $_SERVER['SERVER_NAME'] . '/wp-content');
-	define('WP_SITEURL', 'https://' . $_SERVER['SERVER_NAME'] . '/');
-	define('WP_HOME', 'https://' . $_SERVER['SERVER_NAME']);
+  define('WP_CONTENT_URL', 'https://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+  define('WP_SITEURL', 'https://' . $_SERVER['SERVER_NAME'] . '/');
+  define('WP_HOME', 'https://' . $_SERVER['SERVER_NAME']);
         $_SERVER['HTTPS']='on';
 } else {
-	define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
-	define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/');
-	define('WP_HOME', 'http://' . $_SERVER['SERVER_NAME']);
+  define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+  define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/');
+  define('WP_HOME', 'http://' . $_SERVER['SERVER_NAME']);
 }
 
 
@@ -60,13 +60,13 @@ define('BLOG_ID_CURRENT_SITE', 1);
 
 define('SUNRISE', 'on'); // wordpress-mu-domain-mapping activation
 
-/* define('WP_DEFAULT_THEME', 'parallelus-moxie'); */
+define('WP_DEFAULT_THEME', 'parallelus-moxie');
 
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
-	define('ABSPATH', dirname(__FILE__) . '/');
+  define('ABSPATH', dirname(__FILE__) . '/');
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');

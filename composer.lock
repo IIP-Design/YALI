@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "32c2087deb61acaccbc44bee63886936",
-    "content-hash": "bb4acd3582f5dbcaf8fdaba98148f583",
+    "hash": "2d9b38fe4c256c153cc445df385a10e3",
+    "content-hash": "2f59d9cf1a77acbdc7e5d6ca44ffa7da",
     "packages": [
         {
             "name": "composer/installers",
@@ -1219,11 +1219,11 @@
         },
         {
             "name": "usstatedept/moxie-yali",
-            "version": "1.1",
+            "version": "dev-viper",
             "source": {
                 "type": "git",
-                "url": "git@github.com:usstatedept/moxie-yali.git",
-                "reference": "7ed9e32569cb130a344fc53462314a2494a1d97a"
+                "url": "git@github.com:USStateDept/moxie-yali.git",
+                "reference": "7b53f0ed03f59ccdc85202da16b7a7106f85e996"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -1234,14 +1234,8 @@
             "license": [
                 "MIT"
             ],
-            "authors": [
-                {
-                    "name": "Peter Kaizer",
-                    "email": "peter.kaizer@aquilent.com"
-                }
-            ],
             "description": "Yali Moxie child theme",
-            "time": "2016-03-04 16:24:21"
+            "time": "2016-03-07 19:36:41"
         },
         {
             "name": "usstatedept/parallelus-moxie",
@@ -1639,6 +1633,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "usstatedept/moxie-yali": 20,
         "usstatedept/america-page-protection": 20,
         "usstatedept/formidable-pro-pdf-extended-master": 20
     },
