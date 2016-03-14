@@ -91,7 +91,7 @@
         "usstatedept/formidable-pro-pdf-extended-master": "dev-pdf",
         "usstatedept/js_composer": "4.1.2",
         "usstatedept/wp-hide-login-form": "1.0.1",
-        "usstatedept/revslider": "4.3.8"
+        "usstatedept/revslider": "dev-hard_coded_path_5464"
         },
     "extra": {
         "dropin-paths": {

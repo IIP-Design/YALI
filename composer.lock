@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6c8a59e57918ebb6c603135991f50c62",
-    "content-hash": "b48c79f894160c5b0b59969caa03ce4b",
+    "hash": "2dc1d3ee092f1fa501c4019c11b57db2",
+    "content-hash": "e27a68d54b4831f765955a5dedf4eac7",
     "packages": [
         {
             "name": "composer/installers",
@@ -1257,11 +1257,11 @@
         },
         {
             "name": "usstatedept/revslider",
-            "version": "4.3.8",
+            "version": "dev-hard_coded_path_5464",
             "source": {
                 "type": "git",
                 "url": "git@github.com:usstatedept/revslider.git",
-                "reference": "e219714120f72add71b78701977025f0f57711ad"
+                "reference": "b794c9442a253a1331b36af9d14c0504099d0cdf"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -1271,7 +1271,7 @@
                 "MIT"
             ],
             "description": "Revolution slider.",
-            "time": "2015-10-07 15:41:19"
+            "time": "2016-03-14 19:41:28"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
@@ -1634,7 +1634,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "usstatedept/america-page-protection": 20,
-        "usstatedept/formidable-pro-pdf-extended-master": 20
+        "usstatedept/formidable-pro-pdf-extended-master": 20,
+        "usstatedept/revslider": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
