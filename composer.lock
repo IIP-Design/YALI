@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2d9b38fe4c256c153cc445df385a10e3",
-    "content-hash": "2f59d9cf1a77acbdc7e5d6ca44ffa7da",
+    "hash": "6c8a59e57918ebb6c603135991f50c62",
+    "content-hash": "b48c79f894160c5b0b59969caa03ce4b",
     "packages": [
         {
             "name": "composer/installers",
@@ -877,7 +877,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -936,7 +936,7 @@
         },
         {
             "name": "symfony/polyfill-php56",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php56.git",
@@ -992,7 +992,7 @@
         },
         {
             "name": "symfony/polyfill-util",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-util.git",
@@ -1112,7 +1112,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/america-page-protection.git",
-                "reference": "491403758bfe0bd96d8dec35fd6eee55c0a8d5f3"
+                "reference": "8f17f4ff2bb556f3aa9cf3970b69947ae7a5dd61"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1125,7 +1125,7 @@
                 }
             ],
             "description": "Add password page protection to secured sites",
-            "time": "2015-12-09 21:45:04"
+            "time": "2016-03-10 17:11:55"
         },
         {
             "name": "usstatedept/formidable",
@@ -1219,11 +1219,11 @@
         },
         {
             "name": "usstatedept/moxie-yali",
-            "version": "dev-viper",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/moxie-yali.git",
-                "reference": "7b53f0ed03f59ccdc85202da16b7a7106f85e996"
+                "reference": "1b55990e087263b3f33ed731b3f19af227b37da6"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -1235,7 +1235,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2016-03-07 19:36:41"
+            "time": "2016-03-14 19:18:55"
         },
         {
             "name": "usstatedept/parallelus-moxie",
@@ -1633,7 +1633,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "usstatedept/moxie-yali": 20,
         "usstatedept/america-page-protection": 20,
         "usstatedept/formidable-pro-pdf-extended-master": 20
     },
