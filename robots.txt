@@ -1,0 +1,8 @@
+User-Agent: *
+
+#Quiz pages and other forms
+Disallow: /courses/
+Disallow: /emailrequest/
+Disallow: /quiz-climate/
+Disallow: /emailrequest/
+Disallow: /certificate-request/
