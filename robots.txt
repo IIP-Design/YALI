@@ -1,8 +1,9 @@
-User-Agent: *
+User-agent: *
+Disallow: /wp-admin/
+Disallow: /wp-includes/
 
-#Quiz pages and other forms
-Disallow: /courses/
+# Quiz pages and other forms
+Disallow: /courses/*/
 Disallow: /emailrequest/
 Disallow: /quiz-climate/
-Disallow: /emailrequest/
 Disallow: /certificate-request/
