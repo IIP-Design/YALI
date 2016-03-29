@@ -3,7 +3,20 @@ Disallow: /wp-admin/
 Disallow: /wp-includes/
 
 # Quiz pages and other forms
-Disallow: /courses/*/
 Disallow: /emailrequest/
-Disallow: /quiz-climate/
 Disallow: /certificate-request/
+Disallow: /courses/quiz-management-strategies/
+Disallow: /quiz-climate/
+Disallow: /courses/quiz-women-girls/
+Disallow: /courses/quiz-elections/
+Disallow: /courses/quiz-starting-biz/
+Disallow: /courses/quiz-biz-expansion/
+Disallow: /courses/quiz-servant-leadership/
+Disallow: /courses/quiz-fundraising/
+Disallow: /courses/quiz-personal-growth/
+Disallow: /courses/quiz-community-org/
+Disallow: /courses/quiz-social-ent/
+Disallow: /courses/quiz-workforce-collab/
+Disallow: /courses/quiz-public-private/
+Disallow: /courses/quiz-pub-sec-service/
+Disallow: /courses/quiz-ddentrepreneurship/
