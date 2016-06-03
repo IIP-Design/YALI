@@ -1,7 +1,4 @@
 {
-    "config": {
-        "secure-http": false
-    },
     "repositories": [
         {
             "type": "package",
@@ -20,7 +17,7 @@
         },
         {
             "type": "composer",
-            "url": "http://wpackagist.org"
+            "url": "https://wpackagist.org"
         },
         {
             "type": "git",
@@ -66,7 +63,7 @@
     "require": {
         "wordpress": "3.8.10",
         "fancyguy/webroot-installer": "1.1.0",
-        "koodimonni/composer-dropin-installer": "0.2.4",
+        "koodimonni/composer-dropin-installer": "1.0",
         "wpackagist-plugin/event-organiser": "2.13.6",
         "wpackagist-plugin/gravitate-event-tracking": "1.3.1",
         "wpackagist-plugin/list-category-posts": "0.50.3",
@@ -83,6 +80,7 @@
         "wpackagist-plugin/pdf-print": "1.7.8",
         "wpackagist-plugin/google-apps-login": "2.8.12",
         "wpackagist-plugin/bulk-delete": "5.5.3",
+        "wpackagist-plugin/redirection": "2.4.2",
         "usstatedept/parallelus-moxie": "1.2.3",
         "usstatedept/moxie-yali": "1.6.0",
         "usstatedept/formidable": "1.07.11",
