@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cca053d23556c187498ba115f5f29a54",
-    "content-hash": "5de314792d589d71e09c69d1976e5f0e",
+    "hash": "b92d8f795c251bb2b03b7b07fe33bc1b",
+    "content-hash": "f714821d78d9133c5c0588dd213fad47",
     "packages": [
         {
             "name": "composer/installers",
@@ -879,16 +879,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.0.7",
+            "version": "v3.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "39e5f3d533d07b5416b9d7aad53a27f939d4f811"
+                "reference": "3eb4e64c6145ef8b92adefb618a74ebdde9e3fe9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/39e5f3d533d07b5416b9d7aad53a27f939d4f811",
-                "reference": "39e5f3d533d07b5416b9d7aad53a27f939d4f811",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/3eb4e64c6145ef8b92adefb618a74ebdde9e3fe9",
+                "reference": "3eb4e64c6145ef8b92adefb618a74ebdde9e3fe9",
                 "shasum": ""
             },
             "require": {
@@ -924,7 +924,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2016-05-13 18:03:36"
+            "time": "2016-06-29 05:40:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1095,16 +1095,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v3.1.1",
+            "version": "v3.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "b36e79d7bbbfa4a7e9708335082b3eba2263d356"
+                "reference": "d63a94528530c3ea5ff46924c8001cec4a398609"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/b36e79d7bbbfa4a7e9708335082b3eba2263d356",
-                "reference": "b36e79d7bbbfa4a7e9708335082b3eba2263d356",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/d63a94528530c3ea5ff46924c8001cec4a398609",
+                "reference": "d63a94528530c3ea5ff46924c8001cec4a398609",
                 "shasum": ""
             },
             "require": {
@@ -1155,7 +1155,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-14 11:18:07"
+            "time": "2016-06-29 05:41:56"
         },
         {
             "name": "usstatedept/america-page-protection",
@@ -1270,11 +1270,11 @@
         },
         {
             "name": "usstatedept/moxie-yali",
-            "version": "1.7.1",
+            "version": "1.7.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/moxie-yali.git",
-                "reference": "a9c6595d2807168a2b190ae4adc464e49b74a05b"
+                "reference": "8a5ee55524adb5654d96e7ea8bf2beca96aa3db3"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -1286,7 +1286,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2016-06-29 18:32:41"
+            "time": "2016-07-19 16:21:45"
         },
         {
             "name": "usstatedept/parallelus-moxie",
