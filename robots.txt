@@ -18,5 +18,11 @@ Disallow: /courses/quiz-community-org/
 Disallow: /courses/quiz-social-ent/
 Disallow: /courses/quiz-workforce-collab/
 Disallow: /courses/quiz-public-private/
-Disallow: /courses/quiz-pub-sec-service/
+Disallow: /courses/quiz-pub-sec-service/ 
 Disallow: /courses/quiz-ddentrepreneurship/
+Disallow: /quiz-skill-building-for-girls-advocacy/
+Disallow: /quiz-empowering-women-entrepreneurs/
+Disallow: /courses/learn-to-lead-series/quiz-going-green-for-business-entrepreneurs/
+Disallow: /courses/learn-to-lead-series/quiz-going-green-for-social-entrepreneurs/
+
+
