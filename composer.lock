@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b92d8f795c251bb2b03b7b07fe33bc1b",
-    "content-hash": "f714821d78d9133c5c0588dd213fad47",
+    "hash": "abbb76a60af80c4e6ddb462bb1cc5768",
+    "content-hash": "110d41f24d19644fb07d22011364073f",
     "packages": [
         {
             "name": "composer/installers",
@@ -879,7 +879,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.0.8",
+            "version": "v3.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -1095,16 +1095,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v3.1.2",
+            "version": "v3.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "d63a94528530c3ea5ff46924c8001cec4a398609"
+                "reference": "7713ddf81518d0823b027fe74ec390b80f6b6536"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/d63a94528530c3ea5ff46924c8001cec4a398609",
-                "reference": "d63a94528530c3ea5ff46924c8001cec4a398609",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/7713ddf81518d0823b027fe74ec390b80f6b6536",
+                "reference": "7713ddf81518d0823b027fe74ec390b80f6b6536",
                 "shasum": ""
             },
             "require": {
@@ -1155,7 +1155,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-29 05:41:56"
+            "time": "2016-07-26 08:04:17"
         },
         {
             "name": "usstatedept/america-page-protection",
@@ -1177,6 +1177,29 @@
             ],
             "description": "Add password page protection to secured sites",
             "time": "2016-03-10 17:11:55"
+        },
+        {
+            "name": "usstatedept/america-screendoor",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/america-screendoor.git",
+                "reference": "94d915e3389f62a1bfec020aee8db6685cb3cb31"
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "intervention/image": "^2.3",
+                "intervention/imagecache": "^2.3"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "reganta@america.gov"
+                }
+            ],
+            "description": "Plugin that executes actions based on information fetched from Screendoor via Sreendoor API",
+            "time": "2016-08-02 18:54:46"
         },
         {
             "name": "usstatedept/formidable",
@@ -1698,6 +1721,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-ses",
+            "version": "0.4.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-ses/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-ses.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-ses/"
         }
     ],
     "packages-dev": [],

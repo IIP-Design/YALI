@@ -22,3 +22,7 @@ vendor
 .Trashes
 Thumbs.db
 *.scssc
+.editorconfig
+info.php
+robots.html
+
