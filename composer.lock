@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a8b05de4b1aa2a533d46fcd5014816f1",
-    "content-hash": "292be68f57fa9e540d63fe0206f522a5",
+    "hash": "5fdb7454ef266c065e04f93295554906",
+    "content-hash": "7e8b6665576f4fd096f5d48496f11e28",
     "packages": [
         {
             "name": "composer/installers",
@@ -1180,11 +1180,11 @@
         },
         {
             "name": "usstatedept/america-screendoor",
-            "version": "0.1.3",
+            "version": "0.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-screendoor.git",
-                "reference": "7a097dd825cc1767b6525c92fcef2c19d4757393"
+                "reference": "cc94fb18b78b9499a87c713fb25259fecbbf1f1e"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1199,7 +1199,7 @@
                 }
             ],
             "description": "Plugin that executes actions based on information fetched from Screendoor via Sreendoor API",
-            "time": "2016-08-03 17:27:29"
+            "time": "2016-08-03 19:24:10"
         },
         {
             "name": "usstatedept/formidable",
@@ -1346,6 +1346,27 @@
             ],
             "description": "Revolution slider.",
             "time": "2016-03-14 19:41:28"
+        },
+        {
+            "name": "usstatedept/wordpress-pdcrm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/wordpress-pdcrm.git",
+                "reference": "a7518b2f60c9ac2779dce29138fa80b527a15fb2"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "design@america.gov"
+                }
+            ],
+            "description": "Save WordPress form submissions to Salesforce. Compatible with Formidable Forms, Gravity Forms, and Contact Form 7.",
+            "time": "2016-08-03 19:43:25"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
@@ -1748,6 +1769,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "usstatedept/america-page-protection": 20,
+        "usstatedept/wordpress-pdcrm": 20,
         "usstatedept/formidable-pro-pdf-extended-master": 20,
         "usstatedept/revslider": 20
     },
