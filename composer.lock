@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7a543eca1a3018d2c9fbe5ab4d0a8e9c",
-    "content-hash": "ef6ec3df87ef30f6e64a42f5fe032b42",
+    "hash": "8b929b34ddeaae26db9bb089041bc47c",
+    "content-hash": "f1c04bedf5a80fbc9cab7d57ee54de29",
     "packages": [
         {
             "name": "composer/installers",
@@ -1207,11 +1207,11 @@
         },
         {
             "name": "usstatedept/formidable",
-            "version": "1.07.11",
+            "version": "2.02.05",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/formidable.git",
-                "reference": "b49be37ed953b5ae9aea5ca9357726d76b3867f1"
+                "reference": "3222dc558b297d1749bafc9d23718c5cc29f61ab"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -1227,7 +1227,7 @@
                 }
             ],
             "description": "Formidable",
-            "time": "2015-10-29 15:55:38"
+            "time": "2016-08-18 20:09:43"
         },
         {
             "name": "usstatedept/formidable-mailchimp",
@@ -1259,7 +1259,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:usstatedept/formidable-pro-pdf-extended-master.git",
-                "reference": "634b37e15f535d56024bdff6f657a24415e12fe2"
+                "reference": "0397b12726f48dc1b7cbd8497ace04566eaf1966"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -1275,7 +1275,7 @@
                 }
             ],
             "description": "Formidable Pro PDF Extended allows you to save/view/download a PDF from the front- and back-end, and automate PDF creation on form submission.",
-            "time": "2016-03-03 16:23:06"
+            "time": "2016-08-23 20:10:50"
         },
         {
             "name": "usstatedept/js_composer",
@@ -1357,7 +1357,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/wordpress-pdcrm.git",
-                "reference": "a4a685d092cc09d662f287d99f7635e92a7cbb4d"
+                "reference": "7d757735dbd1dc7d5c2bd6b05495e2e90aa3d89b"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1370,7 +1370,7 @@
                 }
             ],
             "description": "Save WordPress form submissions to Salesforce. Compatible with Formidable Forms, Gravity Forms, and Contact Form 7.",
-            "time": "2016-08-16 16:41:31"
+            "time": "2016-08-18 21:57:07"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
@@ -1406,26 +1406,6 @@
                 "fancyguy/webroot-installer": "1.1.0"
             },
             "type": "webroot"
-        },
-        {
-            "name": "wpackagist-plugin/amazon-ses-and-dkim-mailer",
-            "version": "1.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/amazon-ses-and-dkim-mailer/",
-                "reference": "tags/1.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/amazon-ses-and-dkim-mailer.1.7.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/amazon-ses-and-dkim-mailer/"
         },
         {
             "name": "wpackagist-plugin/bulk-delete",
