@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8b929b34ddeaae26db9bb089041bc47c",
-    "content-hash": "f1c04bedf5a80fbc9cab7d57ee54de29",
+    "hash": "b30601541571f53812ceb7e15649fb08",
+    "content-hash": "46575807deacfd3f5da2bae39b3c0093",
     "packages": [
         {
             "name": "composer/installers",
@@ -1297,11 +1297,11 @@
         },
         {
             "name": "usstatedept/moxie-yali",
-            "version": "1.7.4",
+            "version": "dev-formidable_upgrade_14359",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/moxie-yali.git",
-                "reference": "6cc81a37de62c2dae6fe80438c714eb83efc0c04"
+                "reference": "de58a94428374928a6851c0417c551d0103ac2b9"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -1313,7 +1313,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2016-08-18 16:09:37"
+            "time": "2016-08-23 20:13:50"
         },
         {
             "name": "usstatedept/parallelus-moxie",
@@ -1752,6 +1752,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
+        "usstatedept/moxie-yali": 20,
         "usstatedept/america-page-protection": 20,
         "usstatedept/wordpress-pdcrm": 20,
         "usstatedept/formidable-pro-pdf-extended-master": 20,
