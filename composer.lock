@@ -1301,7 +1301,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/moxie-yali.git",
-                "reference": "de58a94428374928a6851c0417c551d0103ac2b9"
+                "reference": "3c9503b32807b7f9f03d39d398638c4f92f398e7"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -1313,7 +1313,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2016-08-23 20:13:50"
+            "time": "2016-08-24 20:46:43"
         },
         {
             "name": "usstatedept/parallelus-moxie",
