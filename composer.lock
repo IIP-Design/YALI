@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b30601541571f53812ceb7e15649fb08",
-    "content-hash": "46575807deacfd3f5da2bae39b3c0093",
+    "hash": "344f126c8bf8a23a70dbca6b2ad41fbf",
+    "content-hash": "6769272e370fb0a3efeaf05647a90c46",
     "packages": [
         {
             "name": "composer/installers",
@@ -1254,30 +1254,6 @@
             "time": "2015-10-27 14:52:07"
         },
         {
-            "name": "usstatedept/formidable-pro-pdf-extended-master",
-            "version": "dev-pdf",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:usstatedept/formidable-pro-pdf-extended-master.git",
-                "reference": "0397b12726f48dc1b7cbd8497ace04566eaf1966"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Peter Kaizer",
-                    "email": "peter.kaizer@aquilent.com"
-                }
-            ],
-            "description": "Formidable Pro PDF Extended allows you to save/view/download a PDF from the front- and back-end, and automate PDF creation on form submission.",
-            "time": "2016-08-23 20:10:50"
-        },
-        {
             "name": "usstatedept/js_composer",
             "version": "4.1.2",
             "source": {
@@ -1301,7 +1277,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/moxie-yali.git",
-                "reference": "faaf4f5808d46c2cd09531b7838e88624fec92f1"
+                "reference": "708c01b1a9be9655e44149957917fffc685bedc0"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -1313,7 +1289,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2016-08-29 16:21:05"
+            "time": "2016-08-29 20:14:25"
         },
         {
             "name": "usstatedept/parallelus-moxie",
@@ -1755,7 +1731,6 @@
         "usstatedept/moxie-yali": 20,
         "usstatedept/america-page-protection": 20,
         "usstatedept/wordpress-pdcrm": 20,
-        "usstatedept/formidable-pro-pdf-extended-master": 20,
         "usstatedept/revslider": 20
     },
     "prefer-stable": false,
