@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "344f126c8bf8a23a70dbca6b2ad41fbf",
-    "content-hash": "6769272e370fb0a3efeaf05647a90c46",
+    "hash": "87a7f5c47077e26e399e1dc2e5684802",
+    "content-hash": "0ae6853521ff5851d85efb9e7cdb2894",
     "packages": [
         {
             "name": "composer/installers",
@@ -472,16 +472,16 @@
         },
         {
             "name": "intervention/image",
-            "version": "2.3.7",
+            "version": "2.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Intervention/image.git",
-                "reference": "22088b04728a039bd1fc32f7e79a89a118b78698"
+                "reference": "4064a980324f6c3bfa2bd981dfb247afa705ec3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Intervention/image/zipball/22088b04728a039bd1fc32f7e79a89a118b78698",
-                "reference": "22088b04728a039bd1fc32f7e79a89a118b78698",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/4064a980324f6c3bfa2bd981dfb247afa705ec3c",
+                "reference": "4064a980324f6c3bfa2bd981dfb247afa705ec3c",
                 "shasum": ""
             },
             "require": {
@@ -530,7 +530,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2016-04-26 14:08:40"
+            "time": "2016-09-01 17:04:03"
         },
         {
             "name": "intervention/imagecache",
@@ -1273,11 +1273,11 @@
         },
         {
             "name": "usstatedept/moxie-yali",
-            "version": "dev-formidable_upgrade_14359",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/moxie-yali.git",
-                "reference": "708c01b1a9be9655e44149957917fffc685bedc0"
+                "reference": "f2ddc4722dc8586830d9127f3db243f79c09a4ff"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -1289,7 +1289,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2016-08-29 20:14:25"
+            "time": "2016-09-02 13:13:30"
         },
         {
             "name": "usstatedept/parallelus-moxie",
@@ -1333,7 +1333,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/wordpress-pdcrm.git",
-                "reference": "7d757735dbd1dc7d5c2bd6b05495e2e90aa3d89b"
+                "reference": "d4b511b7ddb317ad5091761bd1311d651e4b6710"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1346,7 +1346,7 @@
                 }
             ],
             "description": "Save WordPress form submissions to Salesforce. Compatible with Formidable Forms, Gravity Forms, and Contact Form 7.",
-            "time": "2016-08-18 21:57:07"
+            "time": "2016-08-30 20:00:17"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
@@ -1728,7 +1728,6 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "usstatedept/moxie-yali": 20,
         "usstatedept/america-page-protection": 20,
         "usstatedept/wordpress-pdcrm": 20,
         "usstatedept/revslider": 20
