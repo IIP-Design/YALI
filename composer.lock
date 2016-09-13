@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "87a7f5c47077e26e399e1dc2e5684802",
-    "content-hash": "0ae6853521ff5851d85efb9e7cdb2894",
+    "hash": "18405c8975fcb14e1ffa72034823e203",
+    "content-hash": "996021777aa2eb02c040c8592bbffff6",
     "packages": [
         {
             "name": "composer/installers",
@@ -1099,16 +1099,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v3.1.3",
+            "version": "v3.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "7713ddf81518d0823b027fe74ec390b80f6b6536"
+                "reference": "a35edc277513c9bc0f063ca174c36b346f974528"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/7713ddf81518d0823b027fe74ec390b80f6b6536",
-                "reference": "7713ddf81518d0823b027fe74ec390b80f6b6536",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/a35edc277513c9bc0f063ca174c36b346f974528",
+                "reference": "a35edc277513c9bc0f063ca174c36b346f974528",
                 "shasum": ""
             },
             "require": {
@@ -1159,7 +1159,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-07-26 08:04:17"
+            "time": "2016-08-05 08:37:39"
         },
         {
             "name": "usstatedept/america-page-protection",
@@ -1273,11 +1273,11 @@
         },
         {
             "name": "usstatedept/moxie-yali",
-            "version": "2.0.0",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/moxie-yali.git",
-                "reference": "f2ddc4722dc8586830d9127f3db243f79c09a4ff"
+                "reference": "31127401fc90e652aa6961e5f5a356613d0a3253"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -1289,7 +1289,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2016-09-02 13:13:30"
+            "time": "2016-09-13 14:28:23"
         },
         {
             "name": "usstatedept/parallelus-moxie",
