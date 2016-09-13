@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "18405c8975fcb14e1ffa72034823e203",
-    "content-hash": "996021777aa2eb02c040c8592bbffff6",
+    "hash": "bc10bcae4a6c473b154dbaf43ec5bb75",
+    "content-hash": "40515c7516f9fc227ee603916a3836f1",
     "packages": [
         {
             "name": "composer/installers",
@@ -1273,11 +1273,11 @@
         },
         {
             "name": "usstatedept/moxie-yali",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/moxie-yali.git",
-                "reference": "31127401fc90e652aa6961e5f5a356613d0a3253"
+                "reference": "2a88975d71b4ca87a2e6f3a15e51f94874a98551"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -1289,7 +1289,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2016-09-13 14:28:23"
+            "time": "2016-09-13 20:15:38"
         },
         {
             "name": "usstatedept/parallelus-moxie",
@@ -1402,46 +1402,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/bulk-delete/"
-        },
-        {
-            "name": "wpackagist-plugin/contact-form-7",
-            "version": "3.8",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/3.8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.3.8.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/contact-form-7/"
-        },
-        {
-            "name": "wpackagist-plugin/contact-form-7-autoresponder-addon-plugin",
-            "version": "1.7",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/contact-form-7-autoresponder-addon-plugin/",
-                "reference": "tags/1.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7-autoresponder-addon-plugin.1.7.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/contact-form-7-autoresponder-addon-plugin/"
         },
         {
             "name": "wpackagist-plugin/event-organiser",
