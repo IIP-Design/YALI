@@ -30,8 +30,8 @@ define('NONCE_SALT',       getenv('YALI_NONCE_SALT'));
 
 $table_prefix  = 'wp_';
 
-define('WP_DEBUG', true );
-define('WP_DEBUG_LOG', true);
+define('WP_DEBUG', false);
+define('WP_DEBUG_LOG', false);
 define('WP_DEBUG_DISPLAY', false);
 
 define('WP_CONTENT_DIR', __DIR__ . '/wp-content');
