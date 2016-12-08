@@ -34,7 +34,7 @@ define('WP_DEBUG', false);
 define('WP_DEBUG_LOG', false);
 define('WP_DEBUG_DISPLAY', false);
 
-define('WP_CONTENT_DIR', __DIR__ . '/wp-content');
+// define('WP_CONTENT_DIR', __DIR__ . '/wp-content');
 
 if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) and $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') {
   define('WP_CONTENT_URL', 'https://' . $_SERVER['SERVER_NAME'] . '/wp-content');
