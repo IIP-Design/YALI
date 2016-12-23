@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4c3a8b64809a5969c68a67957d2994dc",
-    "content-hash": "1d7892140c730f51422e8d7b1a93fc3e",
+    "hash": "4101dd96bf9177622e69d049538cc508",
+    "content-hash": "7e5a9b6c4b55503ad99e3d5e6481fadb",
     "packages": [
         {
             "name": "composer/installers",
@@ -1099,16 +1099,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v3.2.0",
+            "version": "v3.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "64ab6fc0b42e5386631f408e6adcaaff8eee5ba1"
+                "reference": "5fd18eca88f4d187807a1eba083bc99feaa8635b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/64ab6fc0b42e5386631f408e6adcaaff8eee5ba1",
-                "reference": "64ab6fc0b42e5386631f408e6adcaaff8eee5ba1",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/5fd18eca88f4d187807a1eba083bc99feaa8635b",
+                "reference": "5fd18eca88f4d187807a1eba083bc99feaa8635b",
                 "shasum": ""
             },
             "require": {
@@ -1159,7 +1159,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2016-11-18 21:17:59"
+            "time": "2016-11-30 14:40:17"
         },
         {
             "name": "usstatedept/america-page-protection",
@@ -1184,11 +1184,11 @@
         },
         {
             "name": "usstatedept/america-screendoor",
-            "version": "1.0.2",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-screendoor.git",
-                "reference": "25d5a54abc840e9f4fbe3684554ce1e966abaa69"
+                "reference": "b58d37d57dabc9e7ae9190d6f6724865491e3468"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1203,7 +1203,7 @@
                 }
             ],
             "description": "Plugin that executes actions based on information fetched from Screendoor via Sreendoor API",
-            "time": "2016-12-09 13:42:43"
+            "time": "2016-12-23 20:05:18"
         },
         {
             "name": "usstatedept/formidable",
@@ -1333,7 +1333,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/wordpress-pdcrm.git",
-                "reference": "d4b511b7ddb317ad5091761bd1311d651e4b6710"
+                "reference": "fbec6a767c8d8ca779017ecadc43f0d3d2428b5e"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -1346,7 +1346,7 @@
                 }
             ],
             "description": "Save WordPress form submissions to Salesforce. Compatible with Formidable Forms, Gravity Forms, and Contact Form 7.",
-            "time": "2016-08-30 20:00:17"
+            "time": "2016-12-13 16:39:08"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
