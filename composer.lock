@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4101dd96bf9177622e69d049538cc508",
-    "content-hash": "7e5a9b6c4b55503ad99e3d5e6481fadb",
+    "hash": "8df0a78dc00ce849df86ec6e1023403d",
+    "content-hash": "86386513284d7dc0fda8865dad2531aa",
     "packages": [
         {
             "name": "composer/installers",
@@ -1184,11 +1184,11 @@
         },
         {
             "name": "usstatedept/america-screendoor",
-            "version": "1.1.0",
+            "version": "1.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-screendoor.git",
-                "reference": "b58d37d57dabc9e7ae9190d6f6724865491e3468"
+                "reference": "434fccbbcae71601d0b38e54e0d7b8abe50a5e84"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1203,7 +1203,7 @@
                 }
             ],
             "description": "Plugin that executes actions based on information fetched from Screendoor via Sreendoor API",
-            "time": "2016-12-23 20:05:18"
+            "time": "2016-12-27 20:14:56"
         },
         {
             "name": "usstatedept/formidable",
@@ -1273,11 +1273,11 @@
         },
         {
             "name": "usstatedept/moxie-yali",
-            "version": "2.1.3",
+            "version": "2.1.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/moxie-yali.git",
-                "reference": "ddf2bfb2d3b39a6eebdaea7473e24577c83266ef"
+                "reference": "2db2f237dee7bab3296f30e2514aec5322914222"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -1289,7 +1289,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2016-11-29 21:46:07"
+            "time": "2016-12-27 20:18:34"
         },
         {
             "name": "usstatedept/parallelus-moxie",
