@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8df0a78dc00ce849df86ec6e1023403d",
-    "content-hash": "86386513284d7dc0fda8865dad2531aa",
+    "hash": "c19b9a665c957e601d9e19d767e61682",
+    "content-hash": "ff454c38e976eb7022652b94b59a2d25",
     "packages": [
         {
             "name": "composer/installers",
@@ -1184,11 +1184,11 @@
         },
         {
             "name": "usstatedept/america-screendoor",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-screendoor.git",
-                "reference": "434fccbbcae71601d0b38e54e0d7b8abe50a5e84"
+                "reference": "f0cb747e4d26096ace37108eb7bf1e4438cb8bb4"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1203,7 +1203,7 @@
                 }
             ],
             "description": "Plugin that executes actions based on information fetched from Screendoor via Sreendoor API",
-            "time": "2016-12-27 20:14:56"
+            "time": "2016-12-30 16:36:18"
         },
         {
             "name": "usstatedept/formidable",
