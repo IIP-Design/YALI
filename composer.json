@@ -37,6 +37,10 @@
         },
         {
             "type": "git",
+            "url": "git@github.com:IIP-Design/America-API-Client.git"
+        },
+        {
+            "type": "git",
             "url": "git@github.com:IIP-Design/wordpress-pdcrm.git"
         },
         {
@@ -88,6 +92,7 @@
         "usstatedept/formidable": "2.02.05",
         "usstatedept/america-page-protection": "dev-vWP3.8.10",
         "usstatedept/america-screendoor": "1.1.4",
+        "iip-design/america-api-client": "2.0.0",
         "usstatedept/wordpress-pdcrm": "dev-master",
         "usstatedept/formidable-mailchimp": "1.04.01",
         "usstatedept/js_composer": "4.1.2",
