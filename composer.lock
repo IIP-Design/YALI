@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a64e425f043a5c30f904181ccaf18f24",
-    "content-hash": "484f171d0306f41b72e942e26717da85",
+    "hash": "c1b93d548249890d9ff528cd3c7db177",
+    "content-hash": "b43188afe46946189b68589a1f09eac2",
     "packages": [
         {
             "name": "composer/installers",
@@ -1300,11 +1300,11 @@
         },
         {
             "name": "usstatedept/moxie-yali",
-            "version": "2.1.5",
+            "version": "2.2.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/moxie-yali.git",
-                "reference": "80d1976dc1e54fb83700bd426ecd4b33fe75bb39"
+                "reference": "f6939cee2634a982deca40e05a16f7f336889a7d"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -1316,7 +1316,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2017-01-19 16:29:36"
+            "time": "2017-01-19 22:03:04"
         },
         {
             "name": "usstatedept/parallelus-moxie",
