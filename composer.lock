@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "764c471d38d6f8d9b33fb7ae5aa93626",
-    "content-hash": "1a8f7c7a76f29c8dafdd9f7873cf9482",
+    "hash": "2317d3d32e263755ebef11460e658742",
+    "content-hash": "4f2553fe8488423e58669cdbfed5d81a",
     "packages": [
         {
             "name": "composer/installers",
@@ -493,16 +493,16 @@
         },
         {
             "name": "intervention/image",
-            "version": "2.3.9",
+            "version": "2.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Intervention/image.git",
-                "reference": "2bce9a59c43b868300b02a7d31a1e4aa67a200ae"
+                "reference": "88911910dcbb7bf617f1370602ba1706489c8505"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Intervention/image/zipball/2bce9a59c43b868300b02a7d31a1e4aa67a200ae",
-                "reference": "2bce9a59c43b868300b02a7d31a1e4aa67a200ae",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/88911910dcbb7bf617f1370602ba1706489c8505",
+                "reference": "88911910dcbb7bf617f1370602ba1706489c8505",
                 "shasum": ""
             },
             "require": {
@@ -551,7 +551,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2017-01-10 14:15:56"
+            "time": "2017-01-25 18:52:04"
         },
         {
             "name": "intervention/imagecache",
@@ -1300,11 +1300,11 @@
         },
         {
             "name": "usstatedept/moxie-yali",
-            "version": "2.2.0",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/moxie-yali.git",
-                "reference": "f6939cee2634a982deca40e05a16f7f336889a7d"
+                "reference": "9ee8c5bcb010fbb574cbb2bc6d998cb85d5ffe70"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -1316,7 +1316,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2017-01-19 22:03:04"
+            "time": "2017-01-31 21:25:28"
         },
         {
             "name": "usstatedept/parallelus-moxie",
