@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bc6f1c9195a73361525364bb0c7b352b",
-    "content-hash": "f1268f591d67686176f37f616013b110",
+    "hash": "d3bf0a92ed6e4bea41e1927ea72dbe9a",
+    "content-hash": "5ddbee8c01b239b428310a85d657454f",
     "packages": [
         {
             "name": "composer/installers",
@@ -289,6 +289,31 @@
             ],
             "description": "Wordpress plugin for consuming the America API",
             "time": "2017-02-08 20:53:03"
+        },
+        {
+            "name": "iip-design/wp-simple-nonce",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/wp-simple-nonce.git",
+                "reference": "c0ade56448782723bab875ed3db128e239973587"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Cal Evans",
+                    "email": "cal@calevans.com"
+                },
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "design@america.gov"
+                }
+            ],
+            "description": "A very simple NONCE for WordPress developers.",
+            "time": "2016-11-18 22:03:33"
         },
         {
             "name": "illuminate/cache",
