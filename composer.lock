@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "97cadd777287bbd32437ecc4c768e0a9",
-    "content-hash": "ded3aafc73e5434f536f1b2ab13f4d09",
+    "content-hash": "76f2496f1f494ef077d3c517bfc58094",
     "packages": [
         {
             "name": "composer/installers",
@@ -100,7 +99,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-02-18 17:17:01"
+            "time": "2015-02-18T17:17:01+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -167,7 +166,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-11-06 14:35:42"
+            "time": "2015-11-06T14:35:42+00:00"
         },
         {
             "name": "fancyguy/webroot-installer",
@@ -209,7 +208,7 @@
             ],
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
-            "time": "2013-03-15 17:51:14"
+            "time": "2013-03-15T17:51:14+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -274,7 +273,7 @@
                 "uri",
                 "url"
             ],
-            "time": "2017-02-27 10:51:17"
+            "time": "2017-02-27T10:51:17+00:00"
         },
         {
             "name": "iip-design/america-api-client",
@@ -295,7 +294,7 @@
                 }
             ],
             "description": "Wordpress plugin for consuming the America API",
-            "time": "2017-02-08 20:53:03"
+            "time": "2017-02-08T20:53:03+00:00"
         },
         {
             "name": "iip-design/wp-simple-nonce",
@@ -320,37 +319,37 @@
                 }
             ],
             "description": "A very simple NONCE for WordPress developers.",
-            "time": "2016-11-18 22:03:33"
+            "time": "2016-11-18T22:03:33+00:00"
         },
         {
             "name": "illuminate/cache",
-            "version": "v5.2.45",
+            "version": "v5.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
-                "reference": "09bcee8982c40570947b799d65987aa030d7706b"
+                "reference": "2d1969cc7f77ba16b949bc1f71cb5e8d4390ec7c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/cache/zipball/09bcee8982c40570947b799d65987aa030d7706b",
-                "reference": "09bcee8982c40570947b799d65987aa030d7706b",
+                "url": "https://api.github.com/repos/illuminate/cache/zipball/2d1969cc7f77ba16b949bc1f71cb5e8d4390ec7c",
+                "reference": "2d1969cc7f77ba16b949bc1f71cb5e8d4390ec7c",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "5.2.*",
-                "illuminate/support": "5.2.*",
+                "illuminate/contracts": "5.4.*",
+                "illuminate/support": "5.4.*",
                 "nesbot/carbon": "~1.20",
-                "php": ">=5.5.9"
+                "php": ">=5.6.4"
             },
             "suggest": {
-                "illuminate/database": "Required to use the database cache driver (5.2.*).",
-                "illuminate/filesystem": "Required to use the file cache driver (5.2.*).",
-                "illuminate/redis": "Required to use the redis cache driver (5.2.*)."
+                "illuminate/database": "Required to use the database cache driver (5.4.*).",
+                "illuminate/filesystem": "Required to use the file cache driver (5.4.*).",
+                "illuminate/redis": "Required to use the redis cache driver (5.4.*)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.2-dev"
+                    "dev-master": "5.4-dev"
                 }
             },
             "autoload": {
@@ -369,30 +368,30 @@
                 }
             ],
             "description": "The Illuminate Cache package.",
-            "homepage": "http://laravel.com",
-            "time": "2016-08-18 14:17:46"
+            "homepage": "https://laravel.com",
+            "time": "2017-01-30T14:20:15+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.2.45",
+            "version": "v5.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
-                "reference": "22bde7b048a33c702d9737fc1446234fff9b1363"
+                "reference": "dd256891c80fd94a58ab83d7989d6da2f50e30ea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/contracts/zipball/22bde7b048a33c702d9737fc1446234fff9b1363",
-                "reference": "22bde7b048a33c702d9737fc1446234fff9b1363",
+                "url": "https://api.github.com/repos/illuminate/contracts/zipball/dd256891c80fd94a58ab83d7989d6da2f50e30ea",
+                "reference": "dd256891c80fd94a58ab83d7989d6da2f50e30ea",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.5.9"
+                "php": ">=5.6.4"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.2-dev"
+                    "dev-master": "5.4-dev"
                 }
             },
             "autoload": {
@@ -411,28 +410,28 @@
                 }
             ],
             "description": "The Illuminate Contracts package.",
-            "homepage": "http://laravel.com",
-            "time": "2016-08-08 11:46:08"
+            "homepage": "https://laravel.com",
+            "time": "2017-02-21T14:21:59+00:00"
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v5.2.45",
+            "version": "v5.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
-                "reference": "39668a50e0cf1d673e58e7dbb437475708cfb508"
+                "reference": "9e74fd5bef124640852da3ec71ec6365408de417"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/39668a50e0cf1d673e58e7dbb437475708cfb508",
-                "reference": "39668a50e0cf1d673e58e7dbb437475708cfb508",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/9e74fd5bef124640852da3ec71ec6365408de417",
+                "reference": "9e74fd5bef124640852da3ec71ec6365408de417",
                 "shasum": ""
             },
             "require": {
-                "illuminate/contracts": "5.2.*",
-                "illuminate/support": "5.2.*",
-                "php": ">=5.5.9",
-                "symfony/finder": "2.8.*|3.0.*"
+                "illuminate/contracts": "5.4.*",
+                "illuminate/support": "5.4.*",
+                "php": ">=5.6.4",
+                "symfony/finder": "~3.2"
             },
             "suggest": {
                 "league/flysystem": "Required to use the Flysystem local and FTP drivers (~1.0).",
@@ -442,7 +441,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.2-dev"
+                    "dev-master": "5.4-dev"
                 }
             },
             "autoload": {
@@ -461,44 +460,42 @@
                 }
             ],
             "description": "The Illuminate Filesystem package.",
-            "homepage": "http://laravel.com",
-            "time": "2016-08-17 17:21:29"
+            "homepage": "https://laravel.com",
+            "time": "2017-01-03T14:19:43+00:00"
         },
         {
             "name": "illuminate/support",
-            "version": "v5.2.45",
+            "version": "v5.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "510230ab62a7d85dc70203f4fdca6fb71a19e08a"
+                "reference": "904f63003fd67ede2ec3be018b322d1c29415465"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/510230ab62a7d85dc70203f4fdca6fb71a19e08a",
-                "reference": "510230ab62a7d85dc70203f4fdca6fb71a19e08a",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/904f63003fd67ede2ec3be018b322d1c29415465",
+                "reference": "904f63003fd67ede2ec3be018b322d1c29415465",
                 "shasum": ""
             },
             "require": {
                 "doctrine/inflector": "~1.0",
                 "ext-mbstring": "*",
-                "illuminate/contracts": "5.2.*",
-                "paragonie/random_compat": "~1.4",
-                "php": ">=5.5.9"
+                "illuminate/contracts": "5.4.*",
+                "paragonie/random_compat": "~1.4|~2.0",
+                "php": ">=5.6.4"
             },
             "replace": {
                 "tightenco/collect": "self.version"
             },
             "suggest": {
                 "illuminate/filesystem": "Required to use the composer class (5.2.*).",
-                "jeremeamia/superclosure": "Required to be able to serialize closures (~2.2).",
-                "symfony/polyfill-php56": "Required to use the hash_equals function on PHP 5.5 (~1.0).",
-                "symfony/process": "Required to use the composer class (2.8.*|3.0.*).",
-                "symfony/var-dumper": "Improves the dd function (2.8.*|3.0.*)."
+                "symfony/process": "Required to use the composer class (~3.2).",
+                "symfony/var-dumper": "Required to use the dd function (~3.2)."
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "5.2-dev"
+                    "dev-master": "5.4-dev"
                 }
             },
             "autoload": {
@@ -520,8 +517,8 @@
                 }
             ],
             "description": "The Illuminate Support package.",
-            "homepage": "http://laravel.com",
-            "time": "2016-08-05 14:49:58"
+            "homepage": "https://laravel.com",
+            "time": "2017-02-15T19:29:24+00:00"
         },
         {
             "name": "intervention/image",
@@ -583,7 +580,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2017-02-04 10:37:19"
+            "time": "2017-02-04T10:37:19+00:00"
         },
         {
             "name": "intervention/imagecache",
@@ -636,7 +633,7 @@
                 "imagick",
                 "laravel"
             ],
-            "time": "2015-09-22 15:22:47"
+            "time": "2015-09-22T15:22:47+00:00"
         },
         {
             "name": "jeremeamia/SuperClosure",
@@ -694,7 +691,7 @@
                 "serialize",
                 "tokenizer"
             ],
-            "time": "2016-12-07 09:37:55"
+            "time": "2016-12-07T09:37:55+00:00"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -736,7 +733,7 @@
                 }
             ],
             "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
-            "time": "2015-06-11 14:15:20"
+            "time": "2015-06-11T14:15:20+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -789,20 +786,20 @@
                 "datetime",
                 "time"
             ],
-            "time": "2017-01-16 07:55:07"
+            "time": "2017-01-16T07:55:07+00:00"
         },
         {
             "name": "nikic/php-parser",
-            "version": "v3.0.4",
+            "version": "v3.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "0bf561dfe75ba80441c22adecc0529056671a7d2"
+                "reference": "2b9e2f71b722f7c53918ab0c25f7646c2013f17d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/0bf561dfe75ba80441c22adecc0529056671a7d2",
-                "reference": "0bf561dfe75ba80441c22adecc0529056671a7d2",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/2b9e2f71b722f7c53918ab0c25f7646c2013f17d",
+                "reference": "2b9e2f71b722f7c53918ab0c25f7646c2013f17d",
                 "shasum": ""
             },
             "require": {
@@ -840,20 +837,20 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-02-10 20:20:03"
+            "time": "2017-03-05T18:23:57+00:00"
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v1.4.1",
+            "version": "v2.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "c7e26a21ba357863de030f0b9e701c7d04593774"
+                "reference": "6968531206671f94377b01dc7888d5d1b858a01b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/c7e26a21ba357863de030f0b9e701c7d04593774",
-                "reference": "c7e26a21ba357863de030f0b9e701c7d04593774",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/6968531206671f94377b01dc7888d5d1b858a01b",
+                "reference": "6968531206671f94377b01dc7888d5d1b858a01b",
                 "shasum": ""
             },
             "require": {
@@ -888,7 +885,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-03-18 20:34:03"
+            "time": "2017-03-03T20:43:42+00:00"
         },
         {
             "name": "psr/http-message",
@@ -938,20 +935,20 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v3.0.9",
+            "version": "v3.2.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "3eb4e64c6145ef8b92adefb618a74ebdde9e3fe9"
+                "reference": "8c71141cae8e2957946b403cc71a67213c0380d6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/3eb4e64c6145ef8b92adefb618a74ebdde9e3fe9",
-                "reference": "3eb4e64c6145ef8b92adefb618a74ebdde9e3fe9",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/8c71141cae8e2957946b403cc71a67213c0380d6",
+                "reference": "8c71141cae8e2957946b403cc71a67213c0380d6",
                 "shasum": ""
             },
             "require": {
@@ -960,7 +957,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "3.2-dev"
                 }
             },
             "autoload": {
@@ -987,7 +984,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-29 05:40:00"
+            "time": "2017-01-02T20:32:22+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1046,7 +1043,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
@@ -1102,7 +1099,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/polyfill-util",
@@ -1154,7 +1151,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/translation",
@@ -1218,7 +1215,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-02-16 22:46:52"
+            "time": "2017-02-16T22:46:52+00:00"
         },
         {
             "name": "usstatedept/america-page-protection",
@@ -1243,11 +1240,11 @@
         },
         {
             "name": "usstatedept/america-screendoor",
-            "version": "1.1.8",
+            "version": "1.1.9",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-screendoor.git",
-                "reference": "72b371600e90d797adefe1a7022ea512481d7e92"
+                "reference": "410cd5690453cedc2368ffe9777a847403dcbdc1"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1262,7 +1259,7 @@
                 }
             ],
             "description": "Plugin that executes actions based on information fetched from Screendoor via Sreendoor API",
-            "time": "2017-03-03 20:55:21"
+            "time": "2017-03-07T16:30:07+00:00"
         },
         {
             "name": "usstatedept/formidable",
@@ -1286,7 +1283,7 @@
                 }
             ],
             "description": "Formidable",
-            "time": "2016-08-18 20:09:43"
+            "time": "2016-08-18T20:09:43+00:00"
         },
         {
             "name": "usstatedept/formidable-mailchimp",
@@ -1310,7 +1307,7 @@
                 }
             ],
             "description": "Formidable to Mailchimp integration.",
-            "time": "2015-10-27 14:52:07"
+            "time": "2015-10-27T14:52:07+00:00"
         },
         {
             "name": "usstatedept/js_composer",
@@ -1328,7 +1325,7 @@
                 "MIT"
             ],
             "description": "Visual Composer.",
-            "time": "2015-10-06 18:11:47"
+            "time": "2015-10-06T18:11:47+00:00"
         },
         {
             "name": "usstatedept/moxie-yali",
@@ -1348,7 +1345,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2017-02-08 20:50:26"
+            "time": "2017-02-08T20:50:26+00:00"
         },
         {
             "name": "usstatedept/parallelus-moxie",
@@ -1366,7 +1363,7 @@
                 "MIT"
             ],
             "description": "Moxie base theme",
-            "time": "2015-10-07 18:27:19"
+            "time": "2015-10-07T18:27:19+00:00"
         },
         {
             "name": "usstatedept/revslider",
@@ -1426,7 +1423,7 @@
                 }
             ],
             "description": "A WordPress plugin to hide the login form on the login page when the Google Apps Login plugin is active.",
-            "time": "2015-12-16 16:18:36"
+            "time": "2015-12-16T16:18:36+00:00"
         },
         {
             "name": "wordpress",
