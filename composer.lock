@@ -4,12 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-    "content-hash": "4b73f31e9a233e9678d76c961a352845",
-=======
-    "hash": "1604187bf17616a3c6957a38b4540173",
-    "content-hash": "f8c8689e3dfb5c1a1c6d58300d616c15",
->>>>>>> 78327d5ff091e55deff258b0e8fc58a95627bff5
+    "content-hash": "963372028ef9a8f553e58622a8ca631e",
     "packages": [
         {
             "name": "composer/installers",
@@ -104,7 +99,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-02-18 17:17:01"
+            "time": "2015-02-18T17:17:01+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -171,7 +166,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-11-06 14:35:42"
+            "time": "2015-11-06T14:35:42+00:00"
         },
         {
             "name": "fancyguy/webroot-installer",
@@ -213,7 +208,7 @@
             ],
             "description": "A composer installer for libraries that live in an application webroot.",
             "homepage": "http://fancyguy.github.com/webroot-installer/",
-            "time": "2013-03-15 17:51:14"
+            "time": "2013-03-15T17:51:14+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
@@ -278,19 +273,15 @@
                 "uri",
                 "url"
             ],
-<<<<<<< HEAD
             "time": "2017-03-20T17:10:46+00:00"
-=======
-            "time": "2017-03-20 17:10:46"
->>>>>>> 78327d5ff091e55deff258b0e8fc58a95627bff5
         },
         {
             "name": "iip-design/america-api-client",
-            "version": "2.1.4",
+            "version": "2.1.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-API-Client.git",
-                "reference": "5fc88d267b782f770fc643c3f5fb9dc464281e42"
+                "reference": "27044ed0182608356d908830ee3b74822b37d014"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -304,10 +295,7 @@
                 }
             ],
             "description": "Wordpress plugin for consuming the America API",
-<<<<<<< HEAD
-            "time": "2017-03-22T16:04:48+00:00"
-=======
-            "time": "2017-03-17 15:49:55"
+            "time": "2017-03-30T21:54:02+00:00"
         },
         {
             "name": "iip-design/america-page-protection",
@@ -329,7 +317,6 @@
             ],
             "description": "Add password page protection to secured sites",
             "time": "2016-03-10 17:11:55"
->>>>>>> 78327d5ff091e55deff258b0e8fc58a95627bff5
         },
         {
             "name": "iip-design/courses-module",
@@ -371,7 +358,7 @@
                 }
             ],
             "description": "Formidable",
-            "time": "2016-08-18 20:09:43"
+            "time": "2016-08-18T20:09:43+00:00"
         },
         {
             "name": "iip-design/formidable-mailchimp",
@@ -395,7 +382,7 @@
                 }
             ],
             "description": "Formidable to Mailchimp integration.",
-            "time": "2015-10-27 14:52:07"
+            "time": "2015-10-27T14:52:07+00:00"
         },
         {
             "name": "iip-design/js_composer",
@@ -413,15 +400,15 @@
                 "MIT"
             ],
             "description": "Visual Composer.",
-            "time": "2015-10-06 18:11:47"
+            "time": "2015-10-06T18:11:47+00:00"
         },
         {
             "name": "iip-design/moxie-yali",
-            "version": "2.3.2",
+            "version": "2.3.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/moxie-yali.git",
-                "reference": "02e51b644b714b8489ba62348ac2b978ad2413d2"
+                "reference": "be702dccba0553703a19720c1edcbdb756f0d6f2"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -433,7 +420,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2017-03-23 19:01:39"
+            "time": "2017-04-21T15:02:14+00:00"
         },
         {
             "name": "iip-design/parallelus-moxie",
@@ -451,7 +438,7 @@
                 "MIT"
             ],
             "description": "Moxie base theme",
-            "time": "2015-10-07 18:27:19"
+            "time": "2015-10-07T18:27:19+00:00"
         },
         {
             "name": "iip-design/revslider",
@@ -490,7 +477,7 @@
                 }
             ],
             "description": "A WordPress plugin to hide the login form on the login page when the Google Apps Login plugin is active.",
-            "time": "2015-12-16 16:18:36"
+            "time": "2015-12-16T16:18:36+00:00"
         },
         {
             "name": "iip-design/wp-simple-nonce",
@@ -515,7 +502,7 @@
                 }
             ],
             "description": "A very simple NONCE for WordPress developers.",
-            "time": "2016-11-18 22:03:33"
+            "time": "2016-11-18T22:03:33+00:00"
         },
         {
             "name": "illuminate/cache",
@@ -565,7 +552,7 @@
             ],
             "description": "The Illuminate Cache package.",
             "homepage": "http://laravel.com",
-            "time": "2016-08-18 14:17:46"
+            "time": "2016-08-18T14:17:46+00:00"
         },
         {
             "name": "illuminate/contracts",
@@ -607,7 +594,7 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "http://laravel.com",
-            "time": "2016-08-08 11:46:08"
+            "time": "2016-08-08T11:46:08+00:00"
         },
         {
             "name": "illuminate/filesystem",
@@ -657,7 +644,7 @@
             ],
             "description": "The Illuminate Filesystem package.",
             "homepage": "http://laravel.com",
-            "time": "2016-08-17 17:21:29"
+            "time": "2016-08-17T17:21:29+00:00"
         },
         {
             "name": "illuminate/support",
@@ -716,7 +703,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "http://laravel.com",
-            "time": "2016-08-05 14:49:58"
+            "time": "2016-08-05T14:49:58+00:00"
         },
         {
             "name": "intervention/image",
@@ -778,7 +765,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2017-02-04 10:37:19"
+            "time": "2017-02-04T10:37:19+00:00"
         },
         {
             "name": "intervention/imagecache",
@@ -831,7 +818,7 @@
                 "imagick",
                 "laravel"
             ],
-            "time": "2015-09-22 15:22:47"
+            "time": "2015-09-22T15:22:47+00:00"
         },
         {
             "name": "jeremeamia/SuperClosure",
@@ -889,7 +876,7 @@
                 "serialize",
                 "tokenizer"
             ],
-            "time": "2016-12-07 09:37:55"
+            "time": "2016-12-07T09:37:55+00:00"
         },
         {
             "name": "koodimonni/composer-dropin-installer",
@@ -931,13 +918,8 @@
                     "role": "Developer"
                 }
             ],
-<<<<<<< HEAD
             "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
             "time": "2017-01-11T19:10:05+00:00"
-=======
-            "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
-            "time": "2015-06-11 14:15:20"
->>>>>>> 78327d5ff091e55deff258b0e8fc58a95627bff5
         },
         {
             "name": "nesbot/carbon",
@@ -990,7 +972,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2017-01-16 07:55:07"
+            "time": "2017-01-16T07:55:07+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -1041,7 +1023,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-03-05 18:23:57"
+            "time": "2017-03-05T18:23:57+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -1089,7 +1071,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-03-13 16:22:52"
+            "time": "2017-03-13T16:22:52+00:00"
         },
         {
             "name": "psr/http-message",
@@ -1139,7 +1121,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "symfony/finder",
@@ -1188,7 +1170,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2016-06-29 05:40:00"
+            "time": "2016-06-29T05:40:00+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1247,7 +1229,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
@@ -1303,7 +1285,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/polyfill-util",
@@ -1355,20 +1337,20 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v3.2.6",
+            "version": "v3.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "0e1b15ce8fbf3890f4ccdac430ed5e07fdfe0690"
+                "reference": "c740eee70783d2af4d3d6b70d5146f209e6b4d13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/0e1b15ce8fbf3890f4ccdac430ed5e07fdfe0690",
-                "reference": "0e1b15ce8fbf3890f4ccdac430ed5e07fdfe0690",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/c740eee70783d2af4d3d6b70d5146f209e6b4d13",
+                "reference": "c740eee70783d2af4d3d6b70d5146f209e6b4d13",
                 "shasum": ""
             },
             "require": {
@@ -1419,15 +1401,15 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-04 12:23:14"
+            "time": "2017-03-21T21:44:32+00:00"
         },
         {
             "name": "usstatedept/america-screendoor",
-            "version": "1.1.9.1",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-screendoor.git",
-                "reference": "4639c3e86dbfde1e95249acb6dc62d05ac2d5fd5"
+                "reference": "b2d085fbaf396add195ee9d8c3ec9cf2e14e2ddd"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1442,133 +1424,7 @@
                 }
             ],
             "description": "Plugin that executes actions based on information fetched from Screendoor via Sreendoor API",
-<<<<<<< HEAD
-            "time": "2017-03-08T21:19:43+00:00"
-        },
-        {
-            "name": "usstatedept/formidable",
-            "version": "2.02.05",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:USStateDept/formidable.git",
-                "reference": "3222dc558b297d1749bafc9d23718c5cc29f61ab"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Peter Kaizer",
-                    "email": "peter.kaizer@aquilent.com"
-                }
-            ],
-            "description": "Formidable",
-            "time": "2016-08-18T20:09:43+00:00"
-        },
-        {
-            "name": "usstatedept/formidable-mailchimp",
-            "version": "1.04.01",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:usstatedept/formidable-mailchimp.git",
-                "reference": "578f56e5ebf78f498e81920683c6bc46b17dad2d"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Peter Kaizer",
-                    "email": "peter.kaizer@aquilent.com"
-                }
-            ],
-            "description": "Formidable to Mailchimp integration.",
-            "time": "2015-10-27T14:52:07+00:00"
-        },
-        {
-            "name": "usstatedept/js_composer",
-            "version": "4.1.2",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:USStateDept/js_composer.git",
-                "reference": "e5d874d8f9c589528dc7c09fe9ee3034326f2e56"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "MIT"
-            ],
-            "description": "Visual Composer.",
-            "time": "2015-10-06T18:11:47+00:00"
-        },
-        {
-            "name": "usstatedept/moxie-yali",
-            "version": "2.3.1",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:USStateDept/moxie-yali.git",
-                "reference": "c653a9e905bb3aa9480871f02ca4f0e513f5a530"
-            },
-            "require": {
-                "composer/installers": "v1.0.21",
-                "intervention/image": "^2.3",
-                "intervention/imagecache": "^2.3"
-            },
-            "type": "wordpress-theme",
-            "license": [
-                "MIT"
-            ],
-            "description": "Yali Moxie child theme",
-            "time": "2017-03-22T18:54:07+00:00"
-        },
-        {
-            "name": "usstatedept/parallelus-moxie",
-            "version": "1.2.3",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:usstatedept/parallelus-moxie.git",
-                "reference": "03f72e0072a61e6a7a9997e74eaa9880962342bf"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-theme",
-            "license": [
-                "MIT"
-            ],
-            "description": "Moxie base theme",
-            "time": "2015-10-07T18:27:19+00:00"
-        },
-        {
-            "name": "usstatedept/revslider",
-            "version": "dev-hard_coded_path_5464",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:usstatedept/revslider.git",
-                "reference": "b794c9442a253a1331b36af9d14c0504099d0cdf"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "MIT"
-            ],
-            "description": "Revolution slider.",
-            "time": "2016-03-14 19:41:28"
-=======
-            "time": "2017-03-08 21:19:43"
->>>>>>> 78327d5ff091e55deff258b0e8fc58a95627bff5
+            "time": "2017-03-30T21:46:30+00:00"
         },
         {
             "name": "usstatedept/wordpress-pdcrm",
