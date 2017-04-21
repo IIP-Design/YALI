@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "804f96ef9e2c7fb23f39f9924a469259",
+    "content-hash": "4b73f31e9a233e9678d76c961a352845",
     "packages": [
         {
             "name": "composer/installers",
@@ -716,16 +716,16 @@
         },
         {
             "name": "koodimonni/composer-dropin-installer",
-            "version": "1.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
-                "reference": "717d992bccb9e5b1fded44136333704d4e61a4ae"
+                "reference": "b09dd53d7bcbe41afec63bd142b17575935e2349"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/717d992bccb9e5b1fded44136333704d4e61a4ae",
-                "reference": "717d992bccb9e5b1fded44136333704d4e61a4ae",
+                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/b09dd53d7bcbe41afec63bd142b17575935e2349",
+                "reference": "b09dd53d7bcbe41afec63bd142b17575935e2349",
                 "shasum": ""
             },
             "require": {
@@ -750,11 +750,12 @@
             "authors": [
                 {
                     "name": "Onni Hakala",
-                    "email": "onni@koodimonni.fi"
+                    "email": "onni@koodimonni.fi",
+                    "role": "Developer"
                 }
             ],
-            "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
-            "time": "2015-06-11T14:15:20+00:00"
+            "description": "Install packages or a few files from packages into custom paths without overwriting existing stuff.",
+            "time": "2017-01-11T19:10:05+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -1350,11 +1351,11 @@
         },
         {
             "name": "usstatedept/moxie-yali",
-            "version": "2.3.0",
+            "version": "2.3.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/moxie-yali.git",
-                "reference": "107099398c4d1dc5d88f726e28c070a62d249423"
+                "reference": "c653a9e905bb3aa9480871f02ca4f0e513f5a530"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -1366,7 +1367,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2017-02-08T20:50:26+00:00"
+            "time": "2017-03-22T18:54:07+00:00"
         },
         {
             "name": "usstatedept/parallelus-moxie",
