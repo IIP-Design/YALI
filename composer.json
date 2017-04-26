@@ -83,7 +83,7 @@
         "wpackagist-plugin/wordpress-seo": "2.0",
         "timber/timber" : "*",
         "twig/twig": "^2.0",
-        "iip-design/america-page-protection": "dev-vWP3.8.10",
+        "iip-design/america-page-protection": "1.0.3",
         "usstatedept/america-screendoor": "1.2.1",
         "iip-design/america-api-client": "2.1.5",
         "iip-design/courses-module": "dev-master",
