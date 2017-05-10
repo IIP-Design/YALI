@@ -50,8 +50,8 @@ if ( isset( $_SERVER['YALI_S3_UPLOADS_REGION'] ) ) {
 
 $table_prefix = 'wp_';
 
-define( 'WP_DEBUG', false );
-define( 'WP_DEBUG_LOG', false );
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_LOG', true );
 define( 'FORCE_SSL_ADMIN', false );
 define( 'SAVEQUERIES', false );
 
@@ -74,6 +74,7 @@ define('MULTISITE', true);
 define('SUBDOMAIN_INSTALL', true);
 define('DOMAIN_CURRENT_SITE', getenv('YALI_DOMAIN_CURRENT_SITE'));
 define('PATH_CURRENT_SITE', '/');
+
 define('SITE_ID_CURRENT_SITE', 1);
 define('BLOG_ID_CURRENT_SITE', 1);
 

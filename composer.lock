@@ -4,113 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "90b0326ba9362fc7fcbf116cb8bae06c",
+    "content-hash": "c1bea19b9114813e6b29a0414dda3742",
     "packages": [
-        {
-            "name": "altorouter/altorouter",
-            "version": "v1.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/dannyvankooten/AltoRouter.git",
-                "reference": "09d9d946c546bae6d22a7654cdb3b825ffda54b4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/dannyvankooten/AltoRouter/zipball/09d9d946c546bae6d22a7654cdb3b825ffda54b4",
-                "reference": "09d9d946c546bae6d22a7654cdb3b825ffda54b4",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "classmap": [
-                    "AltoRouter.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Danny van Kooten",
-                    "email": "dannyvankooten@gmail.com",
-                    "homepage": "http://dannyvankooten.com/"
-                },
-                {
-                    "name": "Koen Punt",
-                    "homepage": "https://github.com/koenpunt"
-                },
-                {
-                    "name": "niahoo",
-                    "homepage": "https://github.com/niahoo"
-                }
-            ],
-            "description": "A lightning fast router for PHP",
-            "homepage": "https://github.com/dannyvankooten/AltoRouter",
-            "keywords": [
-                "lightweight",
-                "router",
-                "routing"
-            ],
-            "time": "2014-04-16T09:44:40+00:00"
-        },
-        {
-            "name": "asm89/twig-cache-extension",
-            "version": "1.3.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/asm89/twig-cache-extension.git",
-                "reference": "630ea7abdc3fc62ba6786c02590a1560e449cf55"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/asm89/twig-cache-extension/zipball/630ea7abdc3fc62ba6786c02590a1560e449cf55",
-                "reference": "630ea7abdc3fc62ba6786c02590a1560e449cf55",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.2",
-                "twig/twig": "^1.0|^2.0"
-            },
-            "require-dev": {
-                "doctrine/cache": "~1.0"
-            },
-            "suggest": {
-                "psr/cache-implementation": "To make use of PSR-6 cache implementation via PsrCacheAdapter."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.3-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alexander",
-                    "email": "iam.asm89@gmail.com"
-                }
-            ],
-            "description": "Cache fragments of templates directly within Twig.",
-            "homepage": "https://github.com/asm89/twig-cache-extension",
-            "keywords": [
-                "cache",
-                "extension",
-                "twig"
-            ],
-            "time": "2017-01-10T22:04:15+00:00"
-        },
         {
             "name": "composer/installers",
             "version": "v1.0.21",
@@ -382,11 +277,11 @@
         },
         {
             "name": "humanmade/s3-uploads",
-            "version": "dev-master",
+            "version": "v2.0.0-beta3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:humanmade/S3-Uploads.git",
-                "reference": "508239b"
+                "reference": "d3c8d81fa57e4535271fbe47c9cef2e54b54da3c"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -411,7 +306,7 @@
                 "issues": "https://github.com/humanmade/s3-uploads/issues",
                 "source": "https://github.com/humanmade/s3-uploads"
             },
-            "time": "2016-09-21 19:46:55"
+            "time": "2017-03-15T04:01:31+00:00"
         },
         {
             "name": "iip-design/america-api-client",
@@ -434,27 +329,6 @@
             ],
             "description": "Wordpress plugin for consuming the America API",
             "time": "2017-03-30T21:54:02+00:00"
-        },
-        {
-            "name": "iip-design/america-page-protection",
-            "version": "1.0.3",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:IIP-Design/america-page-protection.git",
-                "reference": "aa76a62328669f13c443ef77cbeebd259dc9b46f"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Office of Design, Bureau of International Information Programs",
-                    "email": "reganta@america.gov"
-                }
-            ],
-            "description": "Add password page protection to secured sites",
-            "time": "2015-12-07T21:50:55+00:00"
         },
         {
             "name": "iip-design/corona",
@@ -494,11 +368,11 @@
         },
         {
             "name": "iip-design/formidable",
-            "version": "2.02.05",
+            "version": "2.03.07",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/formidable.git",
-                "reference": "3222dc558b297d1749bafc9d23718c5cc29f61ab"
+                "reference": "8c52fc0fec9ca64e6b176fcdca7ff472236fea4a"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -514,15 +388,15 @@
                 }
             ],
             "description": "Formidable",
-            "time": "2016-08-18T20:09:43+00:00"
+            "time": "2017-03-22T15:29:41+00:00"
         },
         {
             "name": "iip-design/formidable-mailchimp",
-            "version": "1.04.01",
+            "version": "2.01",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/formidable-mailchimp.git",
-                "reference": "578f56e5ebf78f498e81920683c6bc46b17dad2d"
+                "reference": "4ff0aae5b44a446741685ea6fbdd565612362444"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -538,7 +412,7 @@
                 }
             ],
             "description": "Formidable to Mailchimp integration.",
-            "time": "2015-10-27T14:52:07+00:00"
+            "time": "2017-03-22T15:32:05+00:00"
         },
         {
             "name": "iip-design/js_composer",
@@ -559,58 +433,12 @@
             "time": "2015-10-06T18:11:47+00:00"
         },
         {
-            "name": "iip-design/wp-hide-login-form",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:IIP-Design/wp-hide-login-form.git",
-                "reference": "5c9a0f55eeea503f82e42d0438fceda8640016ca"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Office of Design, Bureau of International Information Programs",
-                    "email": "gustassj@america.gov"
-                }
-            ],
-            "description": "A WordPress plugin to hide the login form on the login page when the Google Apps Login plugin is active.",
-            "time": "2015-12-16T16:18:36+00:00"
-        },
-        {
-            "name": "iip-design/wp-simple-nonce",
-            "version": "1.4.1",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:IIP-Design/wp-simple-nonce.git",
-                "reference": "c0ade56448782723bab875ed3db128e239973587"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "authors": [
-                {
-                    "name": "Cal Evans",
-                    "email": "cal@calevans.com"
-                },
-                {
-                    "name": "Office of Design, U.S. Department of State",
-                    "email": "design@america.gov"
-                }
-            ],
-            "description": "A very simple NONCE for WordPress developers.",
-            "time": "2016-11-18T22:03:33+00:00"
-        },
-        {
             "name": "iip-design/yali",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/yali-theme.git",
-                "reference": "6f337f7a78f2e1377a4875615a9276f553cb53f8"
+                "reference": "3c3c019c73e9602284883923f8f642de77f7e38e"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -620,7 +448,7 @@
                 "MIT"
             ],
             "description": "YALI's theme, a child of Corona",
-            "time": "2017-04-26 18:09:18"
+            "time": "2017-05-10 16:25:38"
         },
         {
             "name": "illuminate/cache",
@@ -1241,16 +1069,16 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.2.7",
+            "version": "v3.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "b20900ce5ea164cd9314af52725b0bb5a758217a"
+                "reference": "9cf076f8f492f4b1ffac40aae9c2d287b4ca6930"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/b20900ce5ea164cd9314af52725b0bb5a758217a",
-                "reference": "b20900ce5ea164cd9314af52725b0bb5a758217a",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/9cf076f8f492f4b1ffac40aae9c2d287b4ca6930",
+                "reference": "9cf076f8f492f4b1ffac40aae9c2d287b4ca6930",
                 "shasum": ""
             },
             "require": {
@@ -1286,7 +1114,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-20T09:32:19+00:00"
+            "time": "2017-04-12T14:13:17+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -1457,16 +1285,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v3.2.7",
+            "version": "v3.2.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "c740eee70783d2af4d3d6b70d5146f209e6b4d13"
+                "reference": "f4a04d2df710f81515df576b2de06bdeee518b83"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/c740eee70783d2af4d3d6b70d5146f209e6b4d13",
-                "reference": "c740eee70783d2af4d3d6b70d5146f209e6b4d13",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/f4a04d2df710f81515df576b2de06bdeee518b83",
+                "reference": "f4a04d2df710f81515df576b2de06bdeee518b83",
                 "shasum": ""
             },
             "require": {
@@ -1517,70 +1345,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-03-21T21:44:32+00:00"
-        },
-        {
-            "name": "timber/timber",
-            "version": "1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/timber/timber.git",
-                "reference": "dd766a0d4b80329e7b256f64be5623bc1d24ee6f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/timber/timber/zipball/dd766a0d4b80329e7b256f64be5623bc1d24ee6f",
-                "reference": "dd766a0d4b80329e7b256f64be5623bc1d24ee6f",
-                "shasum": ""
-            },
-            "require": {
-                "asm89/twig-cache-extension": "~1.0",
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0|7.*",
-                "twig/twig": "^1.0|2.*",
-                "upstatement/routes": "0.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "5.7.16",
-                "wpackagist-plugin/advanced-custom-fields": "4.*",
-                "wpackagist-plugin/co-authors-plus": "3.*"
-            },
-            "suggest": {
-                "jarednova/markdowndocs": "dev-master for generating docs",
-                "phpdocumentor/phpdocumentor": "2.* for generating docs",
-                "satooshi/php-coveralls": "1.0.* for code coverage"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Timber\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jared Novack",
-                    "email": "jared@upstatement.com",
-                    "homepage": "http://upstatement.com"
-                },
-                {
-                    "name": "Connor J. Burton",
-                    "email": "connorjburton@gmail.com",
-                    "homepage": "http://connorburton.com"
-                }
-            ],
-            "description": "Plugin to write WordPress themes w Object-Oriented Code and the Twig Template Engine",
-            "homepage": "http://timber.upstatement.com",
-            "keywords": [
-                "templating",
-                "themes",
-                "timber",
-                "twig"
-            ],
-            "time": "2017-04-25T20:41:47+00:00"
+            "time": "2017-04-12T14:13:17+00:00"
         },
         {
             "name": "twig/twig",
@@ -1646,57 +1411,6 @@
             "time": "2017-04-21T00:13:02+00:00"
         },
         {
-            "name": "upstatement/routes",
-            "version": "0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Upstatement/routes.git",
-                "reference": "fae7d46f56e8b5775f072774941a5f0a25cb86f3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Upstatement/routes/zipball/fae7d46f56e8b5775f072774941a5f0a25cb86f3",
-                "reference": "fae7d46f56e8b5775f072774941a5f0a25cb86f3",
-                "shasum": ""
-            },
-            "require": {
-                "altorouter/altorouter": "1.1.0",
-                "composer/installers": "~1.0",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*",
-                "satooshi/php-coveralls": "dev-master",
-                "wp-cli/wp-cli": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Routes": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jared Novack",
-                    "email": "jared@upstatement.com",
-                    "homepage": "http://upstatement.com"
-                }
-            ],
-            "description": "Manage rewrites and routes in WordPress with this dead-simple plugin",
-            "homepage": "http://routes.upstatement.com",
-            "keywords": [
-                "redirects",
-                "rewrite",
-                "routes",
-                "routing"
-            ],
-            "time": "2016-07-06T12:53:24+00:00"
-        },
-        {
             "name": "usstatedept/america-screendoor",
             "version": "1.2.1",
             "source": {
@@ -1756,16 +1470,16 @@
         },
         {
             "name": "wpackagist-plugin/google-apps-login",
-            "version": "2.9.7",
+            "version": "2.10.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-apps-login/",
-                "reference": "tags/2.9.7"
+                "reference": "tags/2.10.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-apps-login.2.9.7.zip",
-                "reference": null,
+                "url": "https://downloads.wordpress.org/plugin/google-apps-login.2.10.5.zip",
+                "reference": "tags/2.10.5",
                 "shasum": null
             },
             "require": {
@@ -1785,7 +1499,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-mu-domain-mapping.0.5.5.1.zip",
-                "reference": null,
+                "reference": "tags/0.5.5.1",
                 "shasum": null
             },
             "require": {
@@ -1796,16 +1510,16 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "2.0",
+            "version": "4.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/2.0"
+                "reference": "tags/4.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.0.zip",
-                "reference": null,
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.6.zip",
+                "reference": "tags/4.6",
                 "shasum": null
             },
             "require": {
@@ -1813,6 +1527,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-api-menus",
+            "version": "1.3.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-api-menus/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-api-menus.zip?timestamp=1475510483",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-api-menus/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-rest-api-sidebars",
+            "version": "0.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-rest-api-sidebars/",
+                "reference": "tags/0.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-rest-api-sidebars.0.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-rest-api-sidebars/"
         },
         {
             "name": "wpackagist-plugin/wp-ses",
@@ -1825,7 +1579,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-ses.zip?timestamp=1482924123",
-                "reference": null,
+                "reference": "trunk",
                 "shasum": null
             },
             "require": {
@@ -1839,7 +1593,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "humanmade/s3-uploads": 20,
+        "humanmade/s3-uploads": 10,
         "iip-design/courses-module": 20,
         "usstatedept/wordpress-pdcrm": 20,
         "iip-design/yali": 20
