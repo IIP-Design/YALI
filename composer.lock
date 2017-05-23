@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "d334d4959a55fd6cf83d29c2e627def7",
+    "content-hash": "891aab671ee714d07743fda27b685287",
     "packages": [
         {
             "name": "composer/installers",
@@ -1403,11 +1403,11 @@
         },
         {
             "name": "usstatedept/america-screendoor",
-            "version": "1.2.1",
+            "version": "1.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/america-screendoor.git",
-                "reference": "19f0e20493170dfe48cd5d7eeab26ea34c4ed4d3"
+                "reference": "d14444def3f35cb91b196582fdfe53161750360b"
             },
             "require": {
                 "composer/installers": "~1.0",
@@ -1422,7 +1422,7 @@
                 }
             ],
             "description": "Plugin that executes actions based on information fetched from Screendoor via Sreendoor API",
-            "time": "2017-04-21T18:02:13+00:00"
+            "time": "2017-05-23T18:17:45+00:00"
         },
         {
             "name": "usstatedept/wordpress-pdcrm",
