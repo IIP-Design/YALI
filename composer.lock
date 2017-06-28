@@ -459,7 +459,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/yali-theme.git",
-                "reference": "9e55de0af700adcc9af79a47b62318cceac3904b"
+                "reference": "11bae82c98d90fe30cd603c20f532d44ca9b23e9"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -469,7 +469,7 @@
                 "MIT"
             ],
             "description": "YALI's theme, a child of Corona",
-            "time": "2017-06-28 19:55:04"
+            "time": "2017-06-28 20:19:07"
         },
         {
             "name": "illuminate/cache",
