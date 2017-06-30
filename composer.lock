@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "81448c1410761a810f17f4e65c13207b",
+    "content-hash": "0065a4c6062b2a3057db4bdbad016358",
     "packages": [
         {
             "name": "composer/installers",
@@ -404,11 +404,11 @@
         },
         {
             "name": "iip-design/moxie-yali",
-            "version": "2.3.5",
+            "version": "2.3.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/moxie-yali.git",
-                "reference": "5c0d69843541f1e02b253ebe3365b4bbb79c2db6"
+                "reference": "662e7d559d4f188e60485309490b965741ac8aaa"
             },
             "require": {
                 "composer/installers": "v1.0.21",
@@ -420,7 +420,7 @@
                 "MIT"
             ],
             "description": "Yali Moxie child theme",
-            "time": "2017-06-20T18:23:19+00:00"
+            "time": "2017-06-30T15:42:58+00:00"
         },
         {
             "name": "iip-design/parallelus-moxie",
@@ -974,16 +974,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v3.0.5",
+            "version": "v3.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "2b9e2f71b722f7c53918ab0c25f7646c2013f17d"
+                "reference": "0808939f81c1347a3c8a82a5925385a08074b0f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/2b9e2f71b722f7c53918ab0c25f7646c2013f17d",
-                "reference": "2b9e2f71b722f7c53918ab0c25f7646c2013f17d",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/0808939f81c1347a3c8a82a5925385a08074b0f1",
+                "reference": "0808939f81c1347a3c8a82a5925385a08074b0f1",
                 "shasum": ""
             },
             "require": {
@@ -1021,7 +1021,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-03-05T18:23:57+00:00"
+            "time": "2017-06-28T20:53:48+00:00"
         },
         {
             "name": "paragonie/random_compat",
