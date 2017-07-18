@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "679c610c568ee5f14524d69fbda435ed",
+    "content-hash": "b6aaa16e9fb63e233f71ec2315e7f3fd",
     "packages": [
         {
             "name": "composer/installers",
@@ -372,7 +372,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/formidable.git",
-                "reference": "8c52fc0fec9ca64e6b176fcdca7ff472236fea4a"
+                "reference": "383fccad690a2b7c72d6064a4445ca5f72000039"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -388,7 +388,7 @@
                 }
             ],
             "description": "Formidable",
-            "time": "2017-03-22T15:29:41+00:00"
+            "time": "2017-04-28T15:15:59+00:00"
         },
         {
             "name": "iip-design/formidable-mailchimp",
@@ -416,11 +416,11 @@
         },
         {
             "name": "iip-design/js_composer",
-            "version": "4.1.2",
+            "version": "4.11.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/js_composer.git",
-                "reference": "e5d874d8f9c589528dc7c09fe9ee3034326f2e56"
+                "reference": "8ae5fddf9237ae0927162c0d6d8ea8ff3026a3f3"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -430,7 +430,7 @@
                 "MIT"
             ],
             "description": "Visual Composer.",
-            "time": "2015-10-06T18:11:47+00:00"
+            "time": "2016-05-03T13:15:31+00:00"
         },
         {
             "name": "iip-design/wp-elasticsearch-feeder",
@@ -438,7 +438,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git",
-                "reference": "8824a9eb6d247c45725a20953d52e8c6bbba2b20"
+                "reference": "dc7706ea919afd9a96e53f19431aa3c42a4f46dd"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -451,7 +451,7 @@
                 }
             ],
             "description": "Syncs content to ElasticSearch",
-            "time": "2017-06-15 15:16:07"
+            "time": "2017-07-02 01:38:48"
         },
         {
             "name": "iip-design/yali",
@@ -459,7 +459,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/yali-theme.git",
-                "reference": "11bae82c98d90fe30cd603c20f532d44ca9b23e9"
+                "reference": "614ff45c76993b39e8671b00784eeeffdb85fc23"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -469,7 +469,7 @@
                 "MIT"
             ],
             "description": "YALI's theme, a child of Corona",
-            "time": "2017-06-28 20:19:07"
+            "time": "2017-07-12 18:13:17"
         },
         {
             "name": "illuminate/cache",
@@ -672,16 +672,16 @@
         },
         {
             "name": "intervention/image",
-            "version": "2.3.13",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Intervention/image.git",
-                "reference": "15a517f052ee15d373ffa145c9642d5fec7ddf5c"
+                "reference": "322a4ade249467179c50a3e50eda8760ff3af2a3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Intervention/image/zipball/15a517f052ee15d373ffa145c9642d5fec7ddf5c",
-                "reference": "15a517f052ee15d373ffa145c9642d5fec7ddf5c",
+                "url": "https://api.github.com/repos/Intervention/image/zipball/322a4ade249467179c50a3e50eda8760ff3af2a3",
+                "reference": "322a4ade249467179c50a3e50eda8760ff3af2a3",
                 "shasum": ""
             },
             "require": {
@@ -691,7 +691,7 @@
             },
             "require-dev": {
                 "mockery/mockery": "~0.9.2",
-                "phpunit/phpunit": "3.*"
+                "phpunit/phpunit": "^4.8 || ^5.7"
             },
             "suggest": {
                 "ext-gd": "to use GD library based image processing.",
@@ -702,6 +702,14 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.3-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Intervention\\Image\\ImageServiceProvider"
+                    ],
+                    "aliases": {
+                        "Image": "Intervention\\Image\\Facades\\Image"
+                    }
                 }
             },
             "autoload": {
@@ -716,8 +724,8 @@
             "authors": [
                 {
                     "name": "Oliver Vogel",
-                    "email": "oliver@olivervogel.net",
-                    "homepage": "http://olivervogel.net/"
+                    "email": "oliver@olivervogel.com",
+                    "homepage": "http://olivervogel.com/"
                 }
             ],
             "description": "Image handling and manipulation library with support for Laravel integration",
@@ -730,7 +738,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2017-04-23T18:45:36+00:00"
+            "time": "2017-07-03T15:50:40+00:00"
         },
         {
             "name": "intervention/imagecache",
@@ -958,16 +966,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v3.0.5",
+            "version": "v3.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "2b9e2f71b722f7c53918ab0c25f7646c2013f17d"
+                "reference": "0808939f81c1347a3c8a82a5925385a08074b0f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/2b9e2f71b722f7c53918ab0c25f7646c2013f17d",
-                "reference": "2b9e2f71b722f7c53918ab0c25f7646c2013f17d",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/0808939f81c1347a3c8a82a5925385a08074b0f1",
+                "reference": "0808939f81c1347a3c8a82a5925385a08074b0f1",
                 "shasum": ""
             },
             "require": {
@@ -1005,7 +1013,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-03-05T18:23:57+00:00"
+            "time": "2017-06-28T20:53:48+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -1107,7 +1115,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.3.2",
+            "version": "v3.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -1323,16 +1331,16 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v3.3.2",
+            "version": "v3.3.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "dc3b2a0c6cfff60327ba1c043a82092735397543"
+                "reference": "35dd5fb003c90e8bd4d8cabdf94bf9c96d06fdc3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/dc3b2a0c6cfff60327ba1c043a82092735397543",
-                "reference": "dc3b2a0c6cfff60327ba1c043a82092735397543",
+                "url": "https://api.github.com/repos/symfony/translation/zipball/35dd5fb003c90e8bd4d8cabdf94bf9c96d06fdc3",
+                "reference": "35dd5fb003c90e8bd4d8cabdf94bf9c96d06fdc3",
                 "shasum": ""
             },
             "require": {
@@ -1384,7 +1392,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-05-22T07:42:36+00:00"
+            "time": "2017-06-24T16:45:30+00:00"
         },
         {
             "name": "twig/twig",
@@ -1541,7 +1549,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-apps-login.2.10.5.zip",
-                "reference": "tags/2.10.5",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1581,7 +1589,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.6.zip",
-                "reference": "tags/4.6",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1632,7 +1640,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-ses",
-            "version": "0.7.0",
+            "version": "0.7.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-ses/",
@@ -1640,7 +1648,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-ses.zip?timestamp=1497113783",
+                "url": "https://downloads.wordpress.org/plugin/wp-ses.zip?timestamp=1499447053",
                 "reference": null,
                 "shasum": null
             },
