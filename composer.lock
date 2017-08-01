@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "b6aaa16e9fb63e233f71ec2315e7f3fd",
+    "content-hash": "2550a009f6edcb930f85ca36e2df863c",
     "packages": [
         {
             "name": "composer/installers",
@@ -103,33 +103,33 @@
         },
         {
             "name": "doctrine/inflector",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/inflector.git",
-                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae"
+                "reference": "e11d84c6e018beedd929cff5220969a3c6d1d462"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/90b2128806bfde671b6952ab8bea493942c1fdae",
-                "reference": "90b2128806bfde671b6952ab8bea493942c1fdae",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/e11d84c6e018beedd929cff5220969a3c6d1d462",
+                "reference": "e11d84c6e018beedd929cff5220969a3c6d1d462",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": "^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.*"
+                "phpunit/phpunit": "^6.2"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.1.x-dev"
+                    "dev-master": "1.2.x-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Doctrine\\Common\\Inflector\\": "lib/"
+                "psr-4": {
+                    "Doctrine\\Common\\Inflector\\": "lib/Doctrine/Common/Inflector"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -166,7 +166,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-11-06T14:35:42+00:00"
+            "time": "2017-07-22T12:18:28+00:00"
         },
         {
             "name": "fancyguy/webroot-installer",
@@ -372,7 +372,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/formidable.git",
-                "reference": "383fccad690a2b7c72d6064a4445ca5f72000039"
+                "reference": "8c52fc0fec9ca64e6b176fcdca7ff472236fea4a"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -388,7 +388,7 @@
                 }
             ],
             "description": "Formidable",
-            "time": "2017-04-28T15:15:59+00:00"
+            "time": "2017-03-22T15:29:41+00:00"
         },
         {
             "name": "iip-design/formidable-mailchimp",
@@ -433,6 +433,26 @@
             "time": "2016-05-03T13:15:31+00:00"
         },
         {
+            "name": "iip-design/link-picker-for-cmb2",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IIP-Design/link-picker-for-cmb2.git",
+                "reference": "0d708d72d7caa878172dd45b978befb6dc39bfde"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Matt Watson"
+                }
+            ],
+            "description": "Link Picker control designed to work with CMB2",
+            "time": "2017-08-01T18:02:32+00:00"
+        },
+        {
             "name": "iip-design/wp-elasticsearch-feeder",
             "version": "dev-master",
             "source": {
@@ -459,7 +479,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/yali-theme.git",
-                "reference": "614ff45c76993b39e8671b00784eeeffdb85fc23"
+                "reference": "4d0b4a2ab85fa7f66761c577eb73792c5d8ca078"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -469,7 +489,7 @@
                 "MIT"
             ],
             "description": "YALI's theme, a child of Corona",
-            "time": "2017-07-12 18:13:17"
+            "time": "2017-08-01 18:15:01"
         },
         {
             "name": "illuminate/cache",
@@ -966,16 +986,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v3.0.6",
+            "version": "v3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "0808939f81c1347a3c8a82a5925385a08074b0f1"
+                "reference": "4d4896e553f2094e657fe493506dc37c509d4e2b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/0808939f81c1347a3c8a82a5925385a08074b0f1",
-                "reference": "0808939f81c1347a3c8a82a5925385a08074b0f1",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/4d4896e553f2094e657fe493506dc37c509d4e2b",
+                "reference": "4d4896e553f2094e657fe493506dc37c509d4e2b",
                 "shasum": ""
             },
             "require": {
@@ -1013,7 +1033,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-06-28T20:53:48+00:00"
+            "time": "2017-07-28T14:45:09+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -1115,7 +1135,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.3.4",
+            "version": "v3.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -1331,7 +1351,7 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v3.3.4",
+            "version": "v3.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
@@ -1549,7 +1569,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/google-apps-login.2.10.5.zip",
-                "reference": null,
+                "reference": "tags/2.10.5",
                 "shasum": null
             },
             "require": {
@@ -1589,7 +1609,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.6.zip",
-                "reference": null,
+                "reference": "tags/4.6",
                 "shasum": null
             },
             "require": {

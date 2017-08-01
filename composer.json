@@ -66,6 +66,10 @@
         {
             "type": "git",
             "url": "https://github.com/jcchavezs/cmb2-conditionals.git"
+        },
+         {
+            "type": "git",
+            "url": "https://github.com/IIP-Design/link-picker-for-cmb2.git"
         }
     ],
     "require": {
