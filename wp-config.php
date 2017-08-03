@@ -5,16 +5,20 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
-define('DB_NAME', getenv('YALI_DB_NAME'));
+//define('DB_NAME', getenv('YALI_DB_NAME'));
+define('DB_NAME', 'yali_rebuild');
 
 /** MySQL database username */
 define('DB_USER', getenv('YALI_DB_USER'));
+//define('DB_USER', 'wordpress');
 
 /** MySQL database password */
 define('DB_PASSWORD', getenv('YALI_DB_PASSWORD'));
+//define('DB_PASSWORD', 'wordpress');
 
 /** MySQL hostname */
 define('DB_HOST', getenv('YALI_DB_HOST'));
+//define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -50,12 +54,19 @@ if ( isset( $_SERVER['YALI_S3_UPLOADS_REGION'] ) ) {
 
 $table_prefix = 'wp_';
 
-define( 'WP_DEBUG', true );
-define( 'WP_DEBUG_LOG', true );
+define( 'WP_DEBUG', false );
+define( 'WP_DEBUG_LOG', false );
 define( 'FORCE_SSL_ADMIN', false );
 define( 'SAVEQUERIES', false );
 
 define('WP_CONTENT_DIR', __DIR__ . '/wp-content');
+
+/*
+ * Fix for using WP CLI
+ */
+if( defined('WP_CLI') && WP_CLI && !isset($_SERVER['SERVER_NAME']) ) {
+  $_SERVER['SERVER_NAME'] = 'yali.rebuild.local';
+}
 
 if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) and $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https') {
     define('WP_CONTENT_URL', 'https://' . $_SERVER['SERVER_NAME'] . '/wp-content');

@@ -53,6 +53,10 @@
         },
         {
             "type": "git",
+            "url":  "git@github.com:IIP-Design/iip-interactive.git"
+        },
+        {
+            "type": "git",
             "url": "git@github.com:IIP-Design/js_composer.git"
         },
         {
@@ -91,7 +95,8 @@
         "iip-design/js_composer": "4.1.2",
         "iip-design/corona": "2.10.2",
         "iip-design/yali": "dev-master",
-        "iip-design/wp-elasticsearch-feeder": "dev-master"
+        "iip-design/wp-elasticsearch-feeder": "dev-master",
+        "iip-design/iip-interactive": "dev-master"
     },
     "extra": {
       "dropin-paths": {
