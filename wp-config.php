@@ -5,8 +5,8 @@ require_once(__DIR__ . '/vendor/autoload.php');
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
-//define('DB_NAME', getenv('YALI_DB_NAME'));
-define('DB_NAME', 'yali_rebuild');
+define('DB_NAME', getenv('YALI_DB_NAME'));
+//define('DB_NAME', 'yali_rebuild');
 
 /** MySQL database username */
 define('DB_USER', getenv('YALI_DB_USER'));
