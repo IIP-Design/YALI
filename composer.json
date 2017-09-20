@@ -66,12 +66,8 @@
         {
             "type": "git",
             "url": "git@github.com:IIP-Design/yali-theme.git"
-        },
+        },        
         {
-            "type": "git",
-            "url": "https://github.com/IIP-Design/cmb2-conditionals.git"
-        },
-         {
             "type": "git",
             "url": "https://github.com/IIP-Design/link-picker-for-cmb2.git"
         }
@@ -87,8 +83,7 @@
         "wpackagist-plugin/wordpress-seo": "4.6",
         "wpackagist-plugin/wp-api-menus": "1.3.1",
         "wpackagist-plugin/wp-rest-api-sidebars": "0.1.1",
-        "wpackagist-plugin/cmb2": "2.2.5.3",
-        "iip-design/cmb2-conditionals": "dev-master",
+        "wpackagist-plugin/cmb2": "2.2.5.3",        
         "twig/twig": "^2.0",
         "iip-design/america-api-client": "2.1.5",
         "usstatedept/america-screendoor": "1.2.1",

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "ce1958e6d9471eaec6360a45a16c3614",
+    "content-hash": "8c04c332168b6daed507e0148d52e155",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.35.2",
+            "version": "3.36.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "a2f01d9e9ed93c1e121d2f4450ae0a047fbbb6e8"
+                "reference": "fd0aacadab2f5ae4a43b91bccc164299c5cef7f0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/a2f01d9e9ed93c1e121d2f4450ae0a047fbbb6e8",
-                "reference": "a2f01d9e9ed93c1e121d2f4450ae0a047fbbb6e8",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/fd0aacadab2f5ae4a43b91bccc164299c5cef7f0",
+                "reference": "fd0aacadab2f5ae4a43b91bccc164299c5cef7f0",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-08-30T16:17:20+00:00"
+            "time": "2017-09-19T22:09:23+00:00"
         },
         {
             "name": "composer/installers",
@@ -528,46 +528,6 @@
             "time": "2017-03-30T21:54:02+00:00"
         },
         {
-            "name": "iip-design/cmb2-conditionals",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/IIP-Design/cmb2-conditionals.git",
-                "reference": "4596c9faaeff4e546c5824a4ffc9e91e59dfb4fb"
-            },
-            "require": {
-                "php": ">5.2.4",
-                "webdevstudios/cmb2": "~v2.0"
-            },
-            "suggest": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "José Carlos Chávez",
-                    "email": "jcchavezs@gmail.com",
-                    "homepage": "https://github.com/jcchavezs",
-                    "role": "Developer"
-                }
-            ],
-            "description": "CMB2 Conditionals is a plugin for CMB2 which allows developers to relate fields so one of them could only appear when one other have an specific value or when is not empty.",
-            "homepage": "https://github.com/jcchavezs/cmb2-conditionals",
-            "keywords": [
-                "conditionals",
-                "metabox",
-                "plugin",
-                "wordpress"
-            ],
-            "support": {
-                "issues": "https://github.com/jcchavezs/cmb2-conditionals/issues"
-            },
-            "time": "2017-08-30 18:17:03"
-        },
-        {
             "name": "iip-design/corona",
             "version": "v2.10.2",
             "source": {
@@ -737,7 +697,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/yali-theme.git",
-                "reference": "d36b030997099558ead8ef37d47dc48ce9304598"
+                "reference": "2990641d1037995fb6f895d9da6b281e32b33721"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -747,20 +707,20 @@
                 "MIT"
             ],
             "description": "YALI's theme, a child of Corona",
-            "time": "2017-08-30 15:02:14"
+            "time": "2017-09-19 15:54:53"
         },
         {
             "name": "illuminate/cache",
-            "version": "v5.5.0",
+            "version": "v5.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
-                "reference": "9c76afe91767fdd8ed34efa80a0c9972d2f98aab"
+                "reference": "5fe06340607a9d4748a387096dcfed9cc1694460"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/cache/zipball/9c76afe91767fdd8ed34efa80a0c9972d2f98aab",
-                "reference": "9c76afe91767fdd8ed34efa80a0c9972d2f98aab",
+                "url": "https://api.github.com/repos/illuminate/cache/zipball/5fe06340607a9d4748a387096dcfed9cc1694460",
+                "reference": "5fe06340607a9d4748a387096dcfed9cc1694460",
                 "shasum": ""
             },
             "require": {
@@ -796,11 +756,11 @@
             ],
             "description": "The Illuminate Cache package.",
             "homepage": "https://laravel.com",
-            "time": "2017-08-25T15:30:30+00:00"
+            "time": "2017-08-31T21:24:23+00:00"
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.5.0",
+            "version": "v5.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -844,7 +804,7 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v5.5.0",
+            "version": "v5.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -894,16 +854,16 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.5.0",
+            "version": "v5.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "8fd54c43171117146f7de7d5d24d59747f41bd77"
+                "reference": "6a1c08c4e89429a0333ad86c489088ceeadbcced"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/8fd54c43171117146f7de7d5d24d59747f41bd77",
-                "reference": "8fd54c43171117146f7de7d5d24d59747f41bd77",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/6a1c08c4e89429a0333ad86c489088ceeadbcced",
+                "reference": "6a1c08c4e89429a0333ad86c489088ceeadbcced",
                 "shasum": ""
             },
             "require": {
@@ -947,7 +907,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "https://laravel.com",
-            "time": "2017-08-29T07:40:48+00:00"
+            "time": "2017-09-04T14:00:07+00:00"
         },
         {
             "name": "intervention/image",
@@ -1283,16 +1243,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v3.1.0",
+            "version": "v3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "4d4896e553f2094e657fe493506dc37c509d4e2b"
+                "reference": "a1e8e1a30e1352f118feff1a8481066ddc2f234a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/4d4896e553f2094e657fe493506dc37c509d4e2b",
-                "reference": "4d4896e553f2094e657fe493506dc37c509d4e2b",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/a1e8e1a30e1352f118feff1a8481066ddc2f234a",
+                "reference": "a1e8e1a30e1352f118feff1a8481066ddc2f234a",
                 "shasum": ""
             },
             "require": {
@@ -1330,7 +1290,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2017-07-28T14:45:09+00:00"
+            "time": "2017-09-02T17:10:46+00:00"
         },
         {
             "name": "psr/container",
@@ -1481,7 +1441,7 @@
         },
         {
             "name": "symfony/finder",
-            "version": "v3.3.8",
+            "version": "v3.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
@@ -1697,7 +1657,7 @@
         },
         {
             "name": "symfony/translation",
-            "version": "v3.3.8",
+            "version": "v3.3.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
@@ -1871,63 +1831,6 @@
             "time": "2016-12-13 16:39:08"
         },
         {
-            "name": "webdevstudios/cmb2",
-            "version": "v2.2.5.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/CMB2/CMB2.git",
-                "reference": "5c9bdb6e99e17e4dad71ebbc68dab5def3c64e12"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/CMB2/CMB2/zipball/5c9bdb6e99e17e4dad71ebbc68dab5def3c64e12",
-                "reference": "5c9bdb6e99e17e4dad71ebbc68dab5def3c64e12",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">5.2.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*"
-            },
-            "suggest": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "WebDevStudios",
-                    "email": "contact@webdevstudios.com",
-                    "homepage": "https://github.com/WebDevStudios",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Justin Sternberg",
-                    "email": "justin@dsgnwrks.pro",
-                    "homepage": "https://dsgnwrks.pro",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Zao",
-                    "email": "office@zao.com",
-                    "homepage": "http://zao.is",
-                    "role": "Developer"
-                }
-            ],
-            "description": "CMB2 is a metabox, custom fields, and forms library for WordPress that will blow your mind.",
-            "homepage": "https://github.com/CMB2/CMB2",
-            "keywords": [
-                "metabox",
-                "plugin",
-                "wordpress"
-            ],
-            "time": "2017-08-22T18:14:34+00:00"
-        },
-        {
             "name": "wordpress",
             "version": "4.7.5",
             "dist": {
@@ -2087,7 +1990,6 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "humanmade/s3-uploads": 20,
-        "iip-design/cmb2-conditionals": 20,
         "iip-design/courses-module": 20,
         "usstatedept/wordpress-pdcrm": 20,
         "iip-design/yali": 20,
