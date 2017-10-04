@@ -73,7 +73,7 @@
         },
         {
             "type": "git",
-            "url": "https://github.com/IIP-Design/cdp-cmb2-fields.git"
+            "url": "git@github.com:IIP-Design/cdp-cmb2-fields.git"
         },
         {
             "type": "git",

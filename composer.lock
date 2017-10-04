@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5085818024b6bcf2ae2d604b2f5ca44",
+    "content-hash": "231e5b59741b3985ac4a5c13099684c8",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -532,7 +532,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/IIP-Design/cdp-cmb2-fields.git",
+                "url": "git@github.com:IIP-Design/cdp-cmb2-fields.git",
                 "reference": "77b0c2425660b0262da9de7ca733e6996e358f77"
             },
             "require": {
