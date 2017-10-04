@@ -54,7 +54,7 @@ if ( isset( $_SERVER['YALI_S3_UPLOADS_REGION'] ) ) {
 
 $table_prefix = 'wp_';
 
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', true );
 define( 'WP_DEBUG_LOG', false );
 define( 'FORCE_SSL_ADMIN', false );
 define( 'SAVEQUERIES', false );

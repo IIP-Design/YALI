@@ -71,7 +71,11 @@
             "type": "git",
             "url": "https://github.com/IIP-Design/cmb2-conditionals.git"
         },
-         {
+        {
+            "type": "git",
+            "url": "https://github.com/IIP-Design/cdp-cmb2-fields.git"
+        },
+        {
             "type": "git",
             "url": "https://github.com/IIP-Design/link-picker-for-cmb2.git"
         }
@@ -92,6 +96,7 @@
         "twig/twig": "^2.0",
         "iip-design/america-api-client": "2.1.5",
         "usstatedept/america-screendoor": "1.2.1",
+        "iip-design/cdp-cmb2-fields": "dev-master",
         "iip-design/link-picker-for-cmb2": "v1.0.0",
         "iip-design/courses-module": "dev-master",
         "usstatedept/wordpress-pdcrm": "dev-master",
