@@ -69,7 +69,6 @@
         },        
         {
             "type": "git",
-<<<<<<< HEAD
             "url": "https://github.com/IIP-Design/cmb2-conditionals.git"
         },
         {
@@ -78,8 +77,6 @@
         },
         {
             "type": "git",
-=======
->>>>>>> 37bf0bd039c82b3501679146424a5f0304b43d16
             "url": "https://github.com/IIP-Design/link-picker-for-cmb2.git"
         }
     ],

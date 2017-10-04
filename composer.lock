@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "1da4c0a511fc6eb20dc716ae35a360f1",
+    "content-hash": "a5085818024b6bcf2ae2d604b2f5ca44",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.36.13",
+            "version": "3.36.19",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "aadad22574042e76f5ae3d995cd94b5673dc9b80"
+                "reference": "bed7567b2ed8e70fbf5e1ecf927100e91955b29a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/aadad22574042e76f5ae3d995cd94b5673dc9b80",
-                "reference": "aadad22574042e76f5ae3d995cd94b5673dc9b80",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bed7567b2ed8e70fbf5e1ecf927100e91955b29a",
+                "reference": "bed7567b2ed8e70fbf5e1ecf927100e91955b29a",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-09-21T19:39:57+00:00"
+            "time": "2017-10-03T15:53:57+00:00"
         },
         {
             "name": "composer/installers",
@@ -528,6 +528,27 @@
             "time": "2017-03-30T21:54:02+00:00"
         },
         {
+            "name": "iip-design/cdp-cmb2-fields",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/IIP-Design/cdp-cmb2-fields.git",
+                "reference": "77b0c2425660b0262da9de7ca733e6996e358f77"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "reganta@america.gov"
+                }
+            ],
+            "description": "Creates several CMB2 custom fields, one of which connects to CDP",
+            "time": "2017-10-04 17:49:39"
+        },
+        {
             "name": "iip-design/corona",
             "version": "v2.10.2",
             "source": {
@@ -676,7 +697,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git",
-                "reference": "dc7706ea919afd9a96e53f19431aa3c42a4f46dd"
+                "reference": "a0e425178ea95771c05b96281b6aea1d5531c640"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -689,7 +710,7 @@
                 }
             ],
             "description": "Syncs content to ElasticSearch",
-            "time": "2017-07-02 01:38:48"
+            "time": "2017-10-04 17:27:20"
         },
         {
             "name": "iip-design/yali",
@@ -697,7 +718,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/yali-theme.git",
-                "reference": "c68c3c330d093ee3a408581f9ee8aa4f834c2b31"
+                "reference": "42b895c5cd5d2abebd07130708b465234d31dc12"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -707,7 +728,7 @@
                 "MIT"
             ],
             "description": "YALI's theme, a child of Corona",
-            "time": "2017-09-20 17:19:38"
+            "time": "2017-10-04 17:31:18"
         },
         {
             "name": "illuminate/cache",
@@ -1722,16 +1743,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.4.3",
+            "version": "v2.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "eab7c3288ae6603d7d6f92b531626af2b162d1f2"
+                "reference": "eddb97148ad779f27e670e1e3f19fb323aedafeb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/eab7c3288ae6603d7d6f92b531626af2b162d1f2",
-                "reference": "eab7c3288ae6603d7d6f92b531626af2b162d1f2",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/eddb97148ad779f27e670e1e3f19fb323aedafeb",
+                "reference": "eddb97148ad779f27e670e1e3f19fb323aedafeb",
                 "shasum": ""
             },
             "require": {
@@ -1784,7 +1805,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2017-06-07T18:47:58+00:00"
+            "time": "2017-09-27T18:10:31+00:00"
         },
         {
             "name": "usstatedept/america-screendoor",
@@ -1855,7 +1876,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/cmb2.zip?timestamp=1503425980",
-                "reference": "trunk",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1935,7 +1956,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-api-menus.zip?timestamp=1475510483",
-                "reference": "trunk",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1955,7 +1976,7 @@
             "dist": {
                 "type": "zip",
                 "url": "https://downloads.wordpress.org/plugin/wp-rest-api-sidebars.0.1.1.zip",
-                "reference": "tags/0.1.1",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1990,6 +2011,7 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "humanmade/s3-uploads": 20,
+        "iip-design/cdp-cmb2-fields": 20,
         "iip-design/courses-module": 20,
         "usstatedept/wordpress-pdcrm": 20,
         "iip-design/yali": 20,
