@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "231e5b59741b3985ac4a5c13099684c8",
+    "content-hash": "e38d4626380a6cd0cea2aee03dadbafc",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.36.19",
+            "version": "3.36.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "bed7567b2ed8e70fbf5e1ecf927100e91955b29a"
+                "reference": "d6515144f8f80b95ed1c3d0a8ecc736a58154d7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/bed7567b2ed8e70fbf5e1ecf927100e91955b29a",
-                "reference": "bed7567b2ed8e70fbf5e1ecf927100e91955b29a",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/d6515144f8f80b95ed1c3d0a8ecc736a58154d7f",
+                "reference": "d6515144f8f80b95ed1c3d0a8ecc736a58154d7f",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2017-10-03T15:53:57+00:00"
+            "time": "2017-10-04T21:57:05+00:00"
         },
         {
             "name": "composer/installers",
@@ -572,7 +572,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/Courses-Module.git",
-                "reference": "c107edf0f51d39fbd79793a73130176124241bff"
+                "reference": "28258dc6c339724efc5e8ffaed4ad8f81b554683"
             },
             "type": "library",
             "authors": [
@@ -582,15 +582,15 @@
                 }
             ],
             "description": "\"Frontend view code of the course module\"",
-            "time": "2017-08-24 21:37:00"
+            "time": "2017-10-05 14:04:25"
         },
         {
             "name": "iip-design/formidable",
-            "version": "2.03.07",
+            "version": "2.05.01",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/formidable.git",
-                "reference": "8c52fc0fec9ca64e6b176fcdca7ff472236fea4a"
+                "reference": "1ea5ec7ca5f34c7015cf408618d56319c899faf6"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -599,22 +599,16 @@
             "license": [
                 "MIT"
             ],
-            "authors": [
-                {
-                    "name": "Peter Kaizer",
-                    "email": "peter.kaizer@aquilent.com"
-                }
-            ],
             "description": "Formidable",
-            "time": "2017-03-22T15:29:41+00:00"
+            "time": "2017-10-05T14:16:21+00:00"
         },
         {
             "name": "iip-design/formidable-mailchimp",
-            "version": "2.01",
+            "version": "2.02",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/formidable-mailchimp.git",
-                "reference": "4ff0aae5b44a446741685ea6fbdd565612362444"
+                "reference": "4ca626c55f57299925937a1c62a31ef473a7124d"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -623,14 +617,8 @@
             "license": [
                 "MIT"
             ],
-            "authors": [
-                {
-                    "name": "Peter Kaizer",
-                    "email": "peter.kaizer@aquilent.com"
-                }
-            ],
             "description": "Formidable to Mailchimp integration.",
-            "time": "2017-03-22T15:32:05+00:00"
+            "time": "2017-10-05T14:18:35+00:00"
         },
         {
             "name": "iip-design/iip-interactive",
@@ -718,7 +706,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/yali-theme.git",
-                "reference": "42b895c5cd5d2abebd07130708b465234d31dc12"
+                "reference": "c7a9de28b6822017b016a30dc5ad45d0481bb03f"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -728,7 +716,7 @@
                 "MIT"
             ],
             "description": "YALI's theme, a child of Corona",
-            "time": "2017-10-04 17:31:18"
+            "time": "2017-10-05 14:29:59"
         },
         {
             "name": "illuminate/cache",
@@ -1887,16 +1875,16 @@
         },
         {
             "name": "wpackagist-plugin/google-apps-login",
-            "version": "2.10.5",
+            "version": "3.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-apps-login/",
-                "reference": "tags/2.10.5"
+                "reference": "tags/3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-apps-login.2.10.5.zip",
-                "reference": "tags/2.10.5",
+                "url": "https://downloads.wordpress.org/plugin/google-apps-login.3.0.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1927,16 +1915,16 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "4.6",
+            "version": "5.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/4.6"
+                "reference": "tags/5.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.4.6.zip",
-                "reference": "tags/4.6",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.5.5.1.zip",
+                "reference": null,
                 "shasum": null
             },
             "require": {
@@ -1987,7 +1975,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-ses",
-            "version": "0.7.1",
+            "version": "0.7.21",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-ses/",
@@ -1995,7 +1983,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-ses.zip?timestamp=1499447053",
+                "url": "https://downloads.wordpress.org/plugin/wp-ses.zip?timestamp=1505295712",
                 "reference": null,
                 "shasum": null
             },
