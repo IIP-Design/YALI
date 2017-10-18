@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "67fd87d568ea2bb1290a82280c531a6d",
+    "content-hash": "8876d8da6a3d2809ea4145481e7a8534",
     "packages": [
         {
             "name": "composer/installers",
@@ -1750,7 +1750,7 @@
         },
         {
             "name": "wpackagist-plugin/wp-ses",
-            "version": "0.4.9",
+            "version": "0.7.21",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-ses/",
@@ -1758,7 +1758,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-ses.zip?timestamp=1482924123",
+                "url": "https://downloads.wordpress.org/plugin/wp-ses.zip?timestamp=1505295712",
                 "reference": null,
                 "shasum": null
             },
