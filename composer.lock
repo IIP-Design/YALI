@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "8876d8da6a3d2809ea4145481e7a8534",
+    "content-hash": "dea68fe87d3b9f45d7d169570895dd52",
     "packages": [
         {
             "name": "composer/installers",
@@ -277,15 +277,15 @@
         },
         {
             "name": "iip-design/america-api-client",
-            "version": "2.2.6",
+            "version": "2.2.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/America-API-Client.git",
-                "reference": "a972ebe66dbe87b81d8ee8915901928b672dd34f"
+                "reference": "0f84a696a1e2eef3af0f94361121107a5f314a7a"
             },
             "require": {
                 "composer/installers": "~1.0",
-                "iip-design/courses-module": "v2.0.4"
+                "iip-design/courses-module": "v2.0.5"
             },
             "type": "wordpress-plugin",
             "authors": [
@@ -295,7 +295,7 @@
                 }
             ],
             "description": "Wordpress plugin for consuming the America API",
-            "time": "2017-10-18T15:11:52+00:00"
+            "time": "2017-10-18T18:21:33+00:00"
         },
         {
             "name": "iip-design/america-page-protection",
@@ -320,11 +320,11 @@
         },
         {
             "name": "iip-design/courses-module",
-            "version": "v2.0.4",
+            "version": "v2.0.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/Courses-Module.git",
-                "reference": "40ba085796dfeec20a58b43a365f54746df7259b"
+                "reference": "c366e8d5260be508be0cb337232fbcd9875701ee"
             },
             "type": "library",
             "authors": [
@@ -334,7 +334,7 @@
                 }
             ],
             "description": "\"Frontend view code of the course module\"",
-            "time": "2017-10-18T15:09:10+00:00"
+            "time": "2017-10-18T18:13:11+00:00"
         },
         {
             "name": "iip-design/formidable",
