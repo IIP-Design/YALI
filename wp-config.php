@@ -62,6 +62,11 @@ define( 'SAVEQUERIES', false );
 define('WP_CONTENT_DIR', __DIR__ . '/wp-content');
 
 /*
+ * ALLOW ALL FILE TYPE UPLOADS
+ */
+define( 'ALLOW_UNFILTERED_UPLOADS', true );
+
+/*
  * Fix for using WP CLI
  */
 if( defined('WP_CLI') && WP_CLI && !isset($_SERVER['SERVER_NAME']) ) {
