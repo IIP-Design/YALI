@@ -51,6 +51,9 @@ if ( isset( $_SERVER['YALI_S3_UPLOADS_SECRET'] ) ) {
 if ( isset( $_SERVER['YALI_S3_UPLOADS_REGION'] ) ) {
   define('S3_UPLOADS_REGION', getenv('YALI_S3_UPLOADS_REGION'));
 }
+if ( isset( $_SERVER['YALI_S3_UPLOADS_BUCKET_URL'] ) ) {
+  define('S3_UPLOADS_BUCKET_URL', getenv('YALI_S3_UPLOADS_BUCKET_URL'));
+}
 
 $table_prefix = 'wp_';
 
@@ -60,6 +63,11 @@ define( 'FORCE_SSL_ADMIN', false );
 define( 'SAVEQUERIES', false );
 
 define('WP_CONTENT_DIR', __DIR__ . '/wp-content');
+
+/*
+ * ALLOW ALL FILE TYPE UPLOADS
+ */
+define( 'ALLOW_UNFILTERED_UPLOADS', true );
 
 /*
  * Fix for using WP CLI
