@@ -105,7 +105,7 @@
         "iip-design/formidable": "2.05.01",
         "iip-design/js_composer": "4.11.2",
         "iip-design/corona": "2.10.2",
-        "iip-design/yali": "v1.0.0",
+        "iip-design/yali": "v1.0.1",
         "iip-design/wp-elasticsearch-feeder": "dev-master",
         "iip-design/iip-interactive": "dev-master"
     },
