@@ -10,7 +10,7 @@
                     "type": "zip",
                     "url": "https://github.com/WordPress/WordPress/archive/4.8.3.zip"
                 },
-                "require" : {
+                "require": {
                     "fancyguy/webroot-installer": "1.1.0"
                 }
             }
@@ -53,11 +53,11 @@
         },
         {
             "type": "git",
-            "url":  "git@github.com:IIP-Design/formidable.git"
+            "url": "git@github.com:IIP-Design/formidable.git"
         },
         {
             "type": "git",
-            "url":  "git@github.com:IIP-Design/iip-interactive.git"
+            "url": "git@github.com:IIP-Design/iip-interactive.git"
         },
         {
             "type": "git",
@@ -105,17 +105,17 @@
         "iip-design/formidable": "2.05.01",
         "iip-design/js_composer": "4.11.2",
         "iip-design/corona": "2.10.2",
-        "iip-design/yali": "v1.2.1",
+        "iip-design/yali": "v1.2.2",
         "iip-design/wp-elasticsearch-feeder": "dev-master",
         "iip-design/iip-interactive": "dev-master"
     },
     "extra": {
-      "dropin-paths": {
-          "wp-content/": [
-            "package:wpackagist-plugin/wordpress-mu-domain-mapping:sunrise.php"
-          ]
-      },
-      "webroot-dir": "wp",
-      "webroot-package": "wordpress"
-  }
+        "dropin-paths": {
+            "wp-content/": [
+                "package:wpackagist-plugin/wordpress-mu-domain-mapping:sunrise.php"
+            ]
+        },
+        "webroot-dir": "wp",
+        "webroot-package": "wordpress"
+    }
 }
