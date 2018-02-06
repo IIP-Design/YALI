@@ -111,7 +111,7 @@
     "extra": {
         "dropin-paths": {
             "wp-content/": [
-                "package:wpackagist-plugin/wordpress-mu-domain-mapping:sunrise.php"
+                "package:iip-design/wordpress-mu-domain-mapping:sunrise.php"
             ]
         },
         "webroot-dir": "wp",
