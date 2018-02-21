@@ -77,6 +77,10 @@
     {
       "type": "git",
       "url": "https://github.com/IIP-Design/link-picker-for-cmb2.git"
+    },
+    {
+        "type": "git",
+        "url": "git@github.com:USStateDept/wp-hide-login-form.git"
     }
   ],
   "require": {
@@ -106,7 +110,8 @@
     "iip-design/corona": "2.10.2",
     "iip-design/yali": "v1.3.3",
     "iip-design/wp-elasticsearch-feeder": "dev-master",
-    "iip-design/iip-interactive": "dev-master"
+    "iip-design/iip-interactive": "dev-master",
+    "usstatedept/wp-hide-login-form": "1.0.1",
   },
   "extra": {
     "dropin-paths": {
