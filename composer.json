@@ -80,7 +80,7 @@
     },
     {
         "type": "git",
-        "url": "git@github.com:USStateDept/wp-hide-login-form.git"
+        "url": "git@github.com:IIP-Design/wp-hide-login-form.git"
     }
   ],
   "require": {
@@ -104,14 +104,14 @@
     "iip-design/link-picker-for-cmb2": "v1.0.0",
     "iip-design/america-api-client": "2.2.9",
     "iip-design/wp-simple-nonce": "1.4.1",
-    "usstatedept/wordpress-pdcrm": "dev-master",
+    "iip-design/wordpress-pdcrm": "dev-master",
     "iip-design/formidable": "2.05.01",
     "iip-design/js_composer": "4.11.2",
     "iip-design/corona": "2.10.2",
     "iip-design/yali": "v1.3.3",
     "iip-design/wp-elasticsearch-feeder": "dev-master",
     "iip-design/iip-interactive": "dev-master",
-    "usstatedept/wp-hide-login-form": "1.0.1",
+    "iip-design/wp-hide-login-form": "1.0.1",
   },
   "extra": {
     "dropin-paths": {
