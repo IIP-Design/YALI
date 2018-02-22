@@ -111,7 +111,7 @@
     "iip-design/yali": "v1.3.3",
     "iip-design/wp-elasticsearch-feeder": "1.0.0",
     "iip-design/iip-interactive": "dev-master",
-    "iip-design/wp-hide-login-form": "1.0.1",
+    "iip-design/wp-hide-login-form": "1.0.1"
   },
   "extra": {
     "dropin-paths": {
