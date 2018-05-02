@@ -114,7 +114,7 @@
     "iip-design/js_composer": "4.11.2",
     "iip-design/corona": "2.10.2",
     "iip-design/yali": "v1.3.13",
-    "iip-design/wp-elasticsearch-feeder": "1.0.0",
+    "iip-design/wp-elasticsearch-feeder": "dev-elastic6_fix",
     "iip-design/iip-interactive": "2.1.2",
     "iip-design/wp-hide-login-form": "1.0.1"
   },
