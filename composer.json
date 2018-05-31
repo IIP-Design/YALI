@@ -106,7 +106,7 @@
     "iip-design/wordpress-mu-domain-mapping": "dev-yali",
     "iip-design/cdp-cmb2-fields": "dev-master",
     "iip-design/link-picker-for-cmb2": "v1.0.0",
-    "iip-design/america-api-client": "dev-develop",
+    "iip-design/america-api-client": "2.2.12",
     "iip-design/wp-simple-nonce": "1.4.1",
     "iip-design/wordpress-pdcrm": "dev-master",
     "iip-design/formidable": "3.0.05",
