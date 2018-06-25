@@ -120,7 +120,7 @@
     "iip-design/yali": "v1.3.16",
     "iip-design/wp-elasticsearch-feeder": "dev-elastic6_fix",
     "iip-design/iip-interactive": "2.1.2",
-    "iip-design/iip-map": "v1.1.3",
+    "iip-design/iip-map": "v1.1.2",
     "iip-design/wp-hide-login-form": "1.0.1"
   },
   "extra": {
