@@ -103,7 +103,7 @@
     "humanmade/s3-uploads": "dev-master",
     "twig/twig": "^2.0",
     "iip-design/corona": "2.12.0",
-    "iip-design/yali": "v1.4.16",
+    "iip-design/yali": "v1.4.17",
     "iip-design/america-api-client": "2.2.14",
     "iip-design/america-screendoor": "1.3.29",
     "iip-design/cdp-cmb2-fields": "1.0.0",
