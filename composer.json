@@ -117,7 +117,7 @@
     "iip-design/wordpress-mu-domain-mapping": "dev-yali",
     "iip-design/wordpress-pdcrm": "dev-master",
     "iip-design/wordpress-seo-premium": "8.0.0",
-    "iip-design/wp-elasticsearch-feeder": "2.3.1",
+    "iip-design/wp-elasticsearch-feeder": "dev-master",
     "iip-design/wp-hide-login-form": "1.0.1",
     "iip-design/wp-simple-nonce": "1.4.1",
     "wpackagist-plugin/cmb2": "2.4.2",
