@@ -120,7 +120,7 @@
     "iip-design/wp-elasticsearch-feeder": "dev-master",
     "iip-design/wp-hide-login-form": "1.0.1",
     "iip-design/wp-simple-nonce": "1.4.1",
-    "wpackagist-plugin/cmb2": "2.4.2",
+    "wpackagist-plugin/cmb2": "2.5.1",
     "wpackagist-plugin/google-apps-login": "3.2",
     "wpackagist-plugin/redirection": "3.4.0",
     "wpackagist-plugin/simple-sitemap": "2.5",
