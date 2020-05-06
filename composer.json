@@ -100,7 +100,7 @@
     "wordpress": "5.2.2",
     "fancyguy/webroot-installer": "1.1.0",
     "koodimonni/composer-dropin-installer": "*",
-    "humanmade/s3-uploads": "dev-master",
+    "humanmade/s3-uploads": "dev-master#144d0e84abb6fb603ff35f7361f9a37eeb17e4f9",
     "twig/twig": "^2.0",
     "iip-design/corona": "v2.12.2",
     "iip-design/yali": "v1.6.5",
