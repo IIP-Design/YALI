@@ -5,10 +5,10 @@
       "package": {
         "name": "wordpress",
         "type": "webroot",
-        "version": "5.2.2",
+        "version": "5.5",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/WordPress/WordPress/archive/5.2.2.zip"
+          "url": "https://github.com/WordPress/WordPress/archive/5.5.zip"
         },
         "require": {
           "fancyguy/webroot-installer": "1.1.0"
@@ -97,10 +97,10 @@
     }
   ],
   "require": {
-    "wordpress": "5.2.2",
+    "wordpress": "5.5",
     "fancyguy/webroot-installer": "1.1.0",
     "koodimonni/composer-dropin-installer": "*",
-    "humanmade/s3-uploads": "dev-master#144d0e84abb6fb603ff35f7361f9a37eeb17e4f9",
+    "humanmade/s3-uploads": "2.2.2",
     "twig/twig": "^2.0",
     "iip-design/corona": "v2.12.2",
     "iip-design/yali": "v1.6.5",
@@ -109,7 +109,7 @@
     "iip-design/cdp-cmb2-fields": "1.0.0",
     "iip-design/formidable": "4.02.1",
     "iip-design/formidable-pro": "4.02.1",
-    "iip-design/duracelltomi-google-tag-manager": "dev-custom_taxonomy",
+    "iip-design/duracelltomi-google-tag-manager": "dev-yali",
     "iip-design/iip-interactive": "2.1.2",
     "iip-design/iip-map": "v2.1.0",
     "iip-design/js_composer": "6.0.5",
